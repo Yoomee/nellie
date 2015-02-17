@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://localhost:3001/oauth/token
+    body:
+      encoding: UTF-8
+      string: client_id=a15ed67d5df54109db045cd174650c43fd0f310ed3ead5c7db2df379c52ffbb3&client_secret=cd7b0f2380bc7414272c556d79738d97cab069f2a12cc750cdc816be89e16592&grant_type=password&password=olive123&username=greg%40yoomee.com
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"b30ebedc99b915cf16edd3768b07c807"
+      X-Request-Id:
+      - 722e9f56-af79-4865-ac36-2d693851a253
+      X-Runtime:
+      - '0.104415'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+      Date:
+      - Tue, 17 Feb 2015 12:37:11 GMT
+      Content-Length:
+      - '230'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: "{\"access_token\":\"ff380d4ba9daff7ec35fb63df75772951ed1a18e245a1b1929446f99e40db2e7\",\"token_type\":\"bearer\",\"expires_in\":7200,\"refresh_token\":\"2cdfd2fe688204d3ea7af9075047a6774f258b54221039ca685952f1d1021462\",\"created_at\":1424176631}"
+    http_version: 
+  recorded_at: Tue, 17 Feb 2015 12:37:11 GMT
+recorded_with: VCR 2.9.3
