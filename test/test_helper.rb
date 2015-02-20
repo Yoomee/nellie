@@ -1,7 +1,11 @@
 require './lib/nellie'
 require 'minitest/autorun'
+require "minitest/reporters"
 require 'webmock/minitest'
 require 'vcr'
+require 'byebug'
+
+Minitest::Reporters.use!
 
 VCR.configure do |c|
   c.cassette_library_dir = "test/fixtures"
