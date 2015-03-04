@@ -25,12 +25,9 @@ module Nellie
 
     def refresh_access_token
       Proc.new do |exception, try, elapsed_time, next_interval|
-        # byebug
         puts "Access token not valid"
         puts "Trying to get a new one"
-        client_id = 'a15ed67d5df54109db045cd174650c43fd0f310ed3ead5c7db2df379c52ffbb3'
-        client_secret = 'cd7b0f2380bc7414272c556d79738d97cab069f2a12cc750cdc816be89e16592'
-        client = OAuth2::Client.new(client_id, client_secret, :site => "http://localhost:3001")
+        client = OAuth2::Client.new(Nellie.client_id, Nellie.client_secret, :site => "http://localhost:3001")
         token = OAuth2::AccessToken.new(client, self.access_token, refresh_token: self.refresh_token)
         token = token.refresh!
         store[:access_token] = token.token
