@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3001/api/v1/users/1/posts?access_token=a7f6594d7f2901811ebe9319e84c9c04e9b2262ec2f827856333c60249dfae0e&%7B:count=%3E1%7D=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Elefriends Ruby Gem 0.0.1
+      Authorization:
+      - Token token="a7f6594d7f2901811ebe9319e84c9c04e9b2262ec2f827856333c60249dfae0e"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"4bf698d786855255d3942f185c1db225"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ad5667fe-ceb8-4c3c-b35b-160ce50a949f
+      X-Runtime:
+      - '13.149280'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.0/2014-12-25)
+      Date:
+      - Thu, 05 Mar 2015 16:16:19 GMT
+      Content-Length:
+      - '1501'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siaWQiOjQsInVzZXJfaWQiOjEsInRhcmdldF9pZCI6bnVsbCwidGFyZ2V0
+        X3R5cGUiOiIiLCJ0ZXh0IjoiQXQgcm9jayBib3R0b20gYW5kIHNjYXJlZCBh
+        Ym91dCBob3cgSSdtIGZlZWxpbmcuIFNvcnJ5IHRvIGJlIG1vYW5pbmcgYWdh
+        aW4gYnV0IHdvdWxkIGxvdmUgb25lIGRheSBmZWVsaW5nIG9rIiwiaW1hZ2Vf
+        dWlkIjpudWxsLCJ2aWRlb191cmwiOiIiLCJ2aWRlb190aXRsZSI6bnVsbCwi
+        dmlkZW9fZGVzY3JpcHRpb24iOm51bGwsImZpbGVfdWlkIjpudWxsLCJmaWxl
+        X25hbWUiOm51bGwsImNyZWF0ZWRfYXQiOiIyMDEyLTExLTA5VDEzOjAyOjMx
+        LjAwMFoiLCJ1cGRhdGVkX2F0IjoiMjAxMy0wMi0wMVQxNzowNzozNy4wMDBa
+        IiwicmVtb3ZlZCI6dHJ1ZSwic3RpY2t5IjpmYWxzZSwiY29tbWVudHNfY291
+        bnQiOjIsImF1dG9fbW9kZXJhdGVkIjpmYWxzZSwicmVtb3ZlZF9ieV9pZCI6
+        bnVsbCwibGlua190aXRsZSI6bnVsbCwibGlua19kZXNjcmlwdGlvbiI6bnVs
+        bCwibGlua191cmwiOm51bGwsInVzZXJfbW9kaWZpZWRfYXQiOm51bGwsIm1v
+        ZGVyYXRvcl9pZCI6bnVsbCwibW9kZXJhdGVkX2J5X2lkIjoxNDI1NSwibW9k
+        ZXJhdGVkX2F0IjoiMjAxNS0wMi0yMlQyMTo0OTo1NC4wMDBaIiwibW9kZXJh
+        dG9yX3dhbGwiOmZhbHNlLCJmZWVkYmFjayI6ZmFsc2V9LHsiaWQiOjEwLCJ1
+        c2VyX2lkIjoxLCJ0YXJnZXRfaWQiOm51bGwsInRhcmdldF90eXBlIjoiIiwi
+        dGV4dCI6IkFscmVhZHkgZ290IHRoYXQgc2lua2luZywgcHJlLXdlZWtlbmQg
+        ZmVlbGluZy4gSSBoYXRlIGJlaW5nIGFsb25lIGluIG15IGZsYXQsIG5vdCBr
+        bm93aW5nIGFueW9uZSBpbiB0aGUgYXJlYSwgSSBnZXQgc28gZGVzcGVyYXRl
+        LiBXaXNoIEnigJlkIG5ldmVyIG1vdmVkIGF3YXkuIEnigJltIGZpbmRpbmcg
+        aXQgaW1wb3NzaWJsZSB0byBwbHVjayB1cCB0aGUgY291cmFnZSBhbmQgZXZl
+        biBnbyB0byB0aGUgcHViLCBJIGp1c3QgY2Fu4oCZdCBnZXQgb3ZlciB0aGF0
+        IGh1cmRsZSByaWdodCBub3cuIiwiaW1hZ2VfdWlkIjpudWxsLCJ2aWRlb191
+        cmwiOiIiLCJ2aWRlb190aXRsZSI6bnVsbCwidmlkZW9fZGVzY3JpcHRpb24i
+        Om51bGwsImZpbGVfdWlkIjpudWxsLCJmaWxlX25hbWUiOm51bGwsImNyZWF0
+        ZWRfYXQiOiIyMDEyLTExLTA5VDEzOjA4OjUwLjAwMFoiLCJ1cGRhdGVkX2F0
+        IjoiMjAxMy0wMi0wMVQxNzowNzo0Mi4wMDBaIiwicmVtb3ZlZCI6dHJ1ZSwi
+        c3RpY2t5IjpmYWxzZSwiY29tbWVudHNfY291bnQiOjIsImF1dG9fbW9kZXJh
+        dGVkIjpmYWxzZSwicmVtb3ZlZF9ieV9pZCI6bnVsbCwibGlua190aXRsZSI6
+        bnVsbCwibGlua19kZXNjcmlwdGlvbiI6bnVsbCwibGlua191cmwiOm51bGws
+        InVzZXJfbW9kaWZpZWRfYXQiOm51bGwsIm1vZGVyYXRvcl9pZCI6bnVsbCwi
+        bW9kZXJhdGVkX2J5X2lkIjoxNDI1NSwibW9kZXJhdGVkX2F0IjoiMjAxNS0w
+        Mi0yMlQyMTo0OTo1NC4wMDBaIiwibW9kZXJhdG9yX3dhbGwiOmZhbHNlLCJm
+        ZWVkYmFjayI6ZmFsc2V9XQ==
+    http_version: 
+  recorded_at: Thu, 05 Mar 2015 16:16:19 GMT
+recorded_with: VCR 2.9.3

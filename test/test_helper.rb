@@ -3,6 +3,7 @@ require 'minitest/autorun'
 require "minitest/reporters"
 require 'webmock/minitest'
 require 'vcr'
+require 'oauth2'
 require 'byebug'
 
 Minitest::Reporters.use!
