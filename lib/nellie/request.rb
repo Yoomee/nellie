@@ -39,7 +39,6 @@ module Nellie
     def request(method, path, options, signature=false, raw=false, unformatted=false, no_response_wrapper=false)
       begin
         Retriable.retriable on: Nellie::Errors::Unauthorized, on_retry: refresh_access_token  do
-          # byebug
           response = connection(raw).send(method) do |request|
 
             # path = formatted_path(path) unless unformatted
