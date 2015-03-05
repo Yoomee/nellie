@@ -49,9 +49,6 @@ module Nellie
               request.path = path
               request.body = options unless options.empty?
             end
-            if signature && client_ips != nil
-              request.headers["X-Insta-Forwarded-For"] = get_insta_fowarded_for(client_ips, client_secret)
-            end
           end
           return response if raw
           return response.body if no_response_wrapper
@@ -65,12 +62,5 @@ module Nellie
     def formatted_path(path)
       [path, format].compact.join('.')
     end
-
-    def get_insta_fowarded_for(ips, secret)
-      digest = OpenSSL::Digest.new('sha256')
-      signature = OpenSSL::HMAC.hexdigest(digest, secret, ips)
-      return [ips, signature].join('|')
-    end
-
   end
 end
