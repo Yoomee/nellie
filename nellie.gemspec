@@ -27,6 +27,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "faraday"
   spec.add_dependency "faraday_middleware"
+  spec.add_runtime_dependency "hashie"
   spec.add_dependency "json"
   spec.add_dependency "oauth2", "~> 1.0"
   spec.add_dependency "retriable"

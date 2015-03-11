@@ -55,7 +55,7 @@ module Nellie
           end
           return response if raw
           return response.body if no_response_wrapper
-          return Response.create( response.body)
+          return Response.create(response.body)
         end
       rescue Nellie::Errors::Unauthorized
         raise

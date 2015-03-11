@@ -15,6 +15,8 @@ module Nellie
       Faraday::Connection.new(options) do |connection|
         check = lambda { |env,exception| authorization_error_handler(env, exception) }
         connection.use Nellie::Errors::RaiseError
+        connection.use FaradayMiddleware::Mashify
+        connection.use Faraday::Response::ParseJson
         connection.request :oauth2, store[:access_token]
         connection.adapter(adapter)
       end
