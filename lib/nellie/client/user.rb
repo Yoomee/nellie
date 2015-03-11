@@ -13,6 +13,11 @@ module Nellie
         end
       end
 
+      def latest_users(opts = {})
+        response = get("users/latest", opts)
+        response
+      end
+
     end
   end
 end
