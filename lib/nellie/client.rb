@@ -8,7 +8,7 @@ module Nellie
       new(access_token: hash['access_token'], refresh_token: hash['refresh_token'])
     end
 
-    extend Nellie::Client::Users
+    include Nellie::Client::Users
     include Nellie::Client::Posts
   end
 end
