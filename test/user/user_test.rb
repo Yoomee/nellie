@@ -15,4 +15,15 @@ class NellieUserTest < Minitest::Test
     end
   end
 
+  def test_it_gets_latest_users
+    VCR.use_cassette('latest_users') do
+      client = Nellie::Client.new(access_token: 'access_token', refresh_token: 'refresh_token')
+      client.store[:access_token] = client.access_token
+      response = client.latest_users
+      refute response.nil?
+      refute response.users.nil?
+      assert response.users.count == 12
+    end
+  end
+
 end

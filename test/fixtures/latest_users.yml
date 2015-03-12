@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3001/api/v1/users/latest?access_token=access_token
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Elefriends Ruby Gem 0.0.1
+      Authorization:
+      - Token token="access_token"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"68888c696c8b5b0bb16c344531dcaf42"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d02a6d0b-2d19-4357-9fc0-44a6bf0aeef0
+      X-Runtime:
+      - '0.245253'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.1.5/2014-11-13)
+      Date:
+      - Thu, 12 Mar 2015 09:24:52 GMT
+      Content-Length:
+      - '4951'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"users":[{"id":25897,"nickname":"sweetieelfin","first_name":"Heather","last_name":"Mitchell","bio":null,"email":"sweetieelfin@aol.com","created_at":"2015-03-02T03:25:52.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDIvMDMvMjUvNTIvNDY0L3BpY3R1cmUiXV0?sha=7101605671e022da"},{"id":25892,"nickname":"kazzyc","first_name":"Anon","last_name":"Anonymous","bio":null,"email":"ianandkarencurtis@sky.com","created_at":"2015-03-01T23:33:02.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMjMvMzYvMDcvODc0L3BpY3R1cmUiXV0?sha=62007ea2fed44215"},{"id":25891,"nickname":"jb143","first_name":"Anon","last_name":"Anonymous","bio":null,"email":"jberni504@gmail.com","created_at":"2015-03-01T23:20:17.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMjMvMjIvNDcvOTkzL3BpY3R1cmUiXV0?sha=8af284797a007a24"},{"id":25884,"nickname":"baggiebabe81","first_name":"Anon","last_name":"Anonymous","bio":"Suffering
+        from different mental health problems. Here to discuss and support x ","email":"helenkessey@hotmail.co.uk","created_at":"2015-03-01T19:24:45.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMTkvMzYvMjYvMjQ3L1NjcmVlbnNob3RfMjAxNF8xMV8xNV8xMl8xOV8zM18xLnBuZyJdXQ?sha=d998714e9e023002"},{"id":25881,"nickname":"ClaireM","first_name":"Anon","last_name":"Anonymous","bio":"40
+        Yr old single parent of 3 boys aged 20,18 \u0026 11. ","email":"damndolly@gmail.com","created_at":"2015-03-01T18:11:35.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMTgvMjIvMDkvNjc1LzI5XzA2XzIwMTIuanBnIl1d?sha=53b084e5b31f41bd"},{"id":25880,"nickname":"CreativeHayz","first_name":"Anon","last_name":"Anonymous","bio":"Recently
+        I have been accepted for Cognitive Behaviour Therapy to help me get through
+        the everyday stresses and worries I have. I am hoping that when it soon begins
+        I can change my entire way of thinking. I believe that this has been an ongoing
+        problem for many years and has resulted in me feeling very miserable and anti-social.\r\nI
+        know I can be a caring, loving and loyal person and I have used the arts of
+        felting, knitting, toy making, sculptures and painting to strength my way
+        of expressing myself but yet I very quickly change to have no self-esteem
+        and kick myself down constantly. \r\nIt effects my work life, how I am socially,
+        all my relationships and my general way of pursuing a happy life.\r\nThrough
+        help and comfort from everyone who may care, I can only hope that I can be
+        a good provider of support for all you lovely human beings who need it also.","email":"hayzcourt@hotmail.co.uk","created_at":"2015-03-01T17:57:02.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMTgvMjEvMzIvMTE2LzE0NTA4NDBfMTAxNTI3OTAwODMxMTEwMzBfOTE5ODQwMzUyNDg2MTA0OTQzNV9uLmpwZWciXV0?sha=db7e9583e6607624"},{"id":25877,"nickname":"Jinjanut","first_name":"Sangeeta","last_name":"Dahri","bio":"I
+        have been depressed as long as I can remember. It got worse when I was diagnosed
+        with an under active thyroid. Everyday seems so difficult to get through,
+        locked in with the thoughts in my mind. It''s so tiring, pretending I''m happy
+        and everything is ok, every single day. Longing for a day where I can feel
+        happy about my life and all the happiness in it. ","email":"ladyskivington@gmail.com","created_at":"2015-03-01T17:44:16.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMTcvNTIvMTAvMTkxL2ltYWdlLmpwZyJdXQ?sha=0e1300ea9d59ab2c"},{"id":25875,"nickname":"pippyxx","first_name":"Anon","last_name":"Anonymous","bio":"Hi,
+        I''m a 21-year-old fashion student with a history of depression and anxiety","email":"grace.howard@live.com","created_at":"2015-03-01T17:12:18.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMTcvMTcvNTIvMzk4L2ZsYW1pbmdvXy5qcGciXV0?sha=7c9d8ebad61002d6"},{"id":25872,"nickname":"chris1960","first_name":"Anon","last_name":"Anonymous","bio":"Hi
+        I''m Chris, i''m struggling with my negative thoughts and the way I view myself
+        and compare myself to others, i make excuse''s when invited out so my circle
+        of friends is non-extant. My mood is low .","email":"gcwray7@googlemail.com","created_at":"2015-03-01T14:20:42.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMTQvNDcvMTIvMzIyL0RTQzAyNzE0LkpQRyJdXQ?sha=7308af003d2baf69"},{"id":25870,"nickname":"Lils","first_name":"Anon","last_name":"Anonymous","bio":"","email":"jungle_pants@hotmail.com","created_at":"2015-03-01T11:20:40.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMTEvMzAvMTcvNzkzL2xha2VzXzAzNy5KUEciXV0?sha=184569ba18bab6c1"},{"id":25867,"nickname":"Milliesmum","first_name":"Anne","last_name":"Marie","bio":null,"email":"amkitching@hotmail.com","created_at":"2015-03-01T09:22:08.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMDkvMjIvMDgvMzczL3BpY3R1cmUiXV0?sha=a7bd207c113db701"},{"id":25865,"nickname":"LaLaLucky","first_name":"TuShar","last_name":"SaNghvi","bio":null,"email":"jmatiwala@gmail.com","created_at":"2015-03-01T05:59:13.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMDUvNTkvMTMvMjU0L3BpY3R1cmUiXV0?sha=a61c53df336667b2"}]}'
+    http_version: 
+  recorded_at: Thu, 12 Mar 2015 09:24:52 GMT
+recorded_with: VCR 2.9.3

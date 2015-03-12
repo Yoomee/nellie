@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3001/api/v1/posts/1?access_token=3370c2b33fced602489ef13f1ac965423ee982cd014344b0c77d665cd62cdbe9
+    uri: http://localhost:3001/api/v1/posts/1?access_token=access_token
     body:
       encoding: US-ASCII
       string: ''

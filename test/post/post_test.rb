@@ -18,10 +18,11 @@ class NelliePostTest < Minitest::Test
 
   def test_it_can_get_a_users_latest_post
     VCR.use_cassette('users_single_post') do
-      client = Nellie::Client.new(access_token: 'access_token', refresh_token: 'refresh_token')
+      client = Nellie::Client.new(access_token: 'access_token', refresh_token: 'access_token')
       client.store[:access_token] = client.access_token
-      posts = client.user_posts(1, count: 1)
-      refute posts.nil?
+      response = client.user_posts(1, count: 1)
+      refute response.posts.nil?
+      assert response.posts.count == 1
     end
   end
 
