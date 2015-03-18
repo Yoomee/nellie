@@ -17,6 +17,7 @@ module Nellie
         connection.use Nellie::Errors::RaiseError
         connection.use FaradayMiddleware::Mashify
         connection.use Faraday::Response::ParseJson
+        connection.use FaradayMiddleware::EncodeJson
         connection.request :oauth2, store[:access_token]
         connection.adapter(adapter)
       end
