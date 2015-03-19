@@ -7,7 +7,7 @@ module Nellie
     # Custom error class for rescuing from all Elefriends errors
     class Error < StandardError; end
 
-    # Raised when Instagram returns the HTTP status code 401
+    # Raised when Nellie returns the HTTP status code 401
     class Unauthorized < Error; end
 
   end
