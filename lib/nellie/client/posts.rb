@@ -2,7 +2,7 @@ module Nellie
   class Client
     module Posts
 
-      def post(id)
+      def get_post(id)
         response = get("posts/#{id}")
         response
       end
