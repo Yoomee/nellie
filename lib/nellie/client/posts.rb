@@ -36,12 +36,11 @@ module Nellie
 
       def like_post(id, opts = {})
         response = post("posts/#{id}/likes", opts)
-        byebug
         response
       end
 
       def unlike_post(id, opts = {})
-        response = delete("likes/#{id}", opts)
+        response = delete("posts/#{id}/likes", opts)
         response
       end
 
