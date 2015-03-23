@@ -27,7 +27,7 @@ module Nellie
       Proc.new do |exception, try, elapsed_time, next_interval|
         puts "Access token not valid"
         puts "Trying to get a new one"
-        client = OAuth2::Client.new(Nellie.client_id, Nellie.client_secret, :site => "http://localhost:3001")
+        client = OAuth2::Client.new(Nellie.client_id, Nellie.client_secret, :site => Nellie.endpoint)
         token = OAuth2::AccessToken.new(client, self.access_token, refresh_token: self.refresh_token)
         token = token.refresh!
         store[:access_token] = token.token
