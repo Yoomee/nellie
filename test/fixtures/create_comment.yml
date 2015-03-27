@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://localhost:3001/api/v1/posts/1/comments?access_token=access_token
+    body:
+      encoding: UTF-8
+      string: '{"text":"Some text"}'
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Elefriends Ruby Gem 0.0.1
+      Content-Type:
+      - application/json
+      Authorization:
+      - Token token="1afe2beb144782a95cbc251e7c3d50d29384608be2fe050b8ab009d30def4e12"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"9ab5d5e7973c993fffd557ee70901d2b"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 2dff9fad-5890-4629-832f-43bce7b4cd67
+      X-Runtime:
+      - '0.622931'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.1.5/2014-11-13)
+      Date:
+      - Fri, 27 Mar 2015 09:36:12 GMT
+      Content-Length:
+      - '462'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"comment":{"id":1320042,"text":"Some text","created_at":"2015-03-27T09:36:12.267Z","updated_at":"2015-03-27T09:36:12.267Z","user_id":15554,"post_id":440887,"user":{"id":15554,"nickname":"gregw","first_name":"Greg","last_name":"Woodcock","bio":"Hi
+        my name is greg","email":"greg@yoomee.com","created_at":"2014-08-01T14:55:17.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDgvMDEvMTQvNTUvMTcvNzgwL3BpY3R1cmUiXV0?sha=49666ad8ef52de4a","twitter_screen_name":null}}}'
+    http_version: 
+  recorded_at: Fri, 27 Mar 2015 09:36:12 GMT
+recorded_with: VCR 2.9.3

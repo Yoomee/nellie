@@ -10,5 +10,6 @@ module Nellie
 
     include Nellie::Client::Users
     include Nellie::Client::Posts
+    include Nellie::Client::Comment
   end
 end

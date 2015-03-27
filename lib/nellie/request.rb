@@ -11,10 +11,10 @@ module Nellie
       request(:post, path, options, signature, raw, unformatted, no_response_wrapper)
     end
 
-  #   # Perform an HTTP PUT request
-  #   def put(path, options={},  signature=false, raw=false, unformatted=false, no_response_wrapper=no_response_wrapper)
-  #     request(:put, path, options, signature, raw, unformatted, no_response_wrapper)
-  #   end
+    # Perform an HTTP PUT request
+    def put(path, options={},  signature=false, raw=false, unformatted=false, no_response_wrapper=no_response_wrapper)
+      request(:put, path, options, signature, raw, unformatted, no_response_wrapper)
+    end
 
     # Perform an HTTP DELETE request
     def delete(path, options={}, signature=false, raw=false, unformatted=false, no_response_wrapper=no_response_wrapper)
