@@ -27,4 +27,16 @@ class NelliePostTest < Minitest::Test
     end
   end
 
+  def test_it_can_get_a_posts_comments
+    VCR.use_cassette('posts_comments') do
+      client = Nellie::Client.new(access_token: 'access_token', refresh_token: 'access_token')
+      client.store[:access_token] = client.access_token
+      response = client.post_comments(1)
+
+      refute response.comments.nil?
+      assert response.comments.count == 5
+      refute response.comments[0].user.nil?
+    end
+  end
+
 end

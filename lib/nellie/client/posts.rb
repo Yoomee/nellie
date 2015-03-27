@@ -44,6 +44,11 @@ module Nellie
         response
       end
 
+      def post_comments(id, opts = {})
+        response = get("posts/#{id}/comments", opts)
+        response
+      end
+
     end
   end
 end
