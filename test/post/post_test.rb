@@ -10,7 +10,7 @@ class NelliePostTest < Minitest::Test
     VCR.use_cassette('single_post') do
       client = Nellie::Client.new(access_token: 'access_token', refresh_token: 'refresh_token')
       client.store[:access_token] = client.access_token
-      post = client.post(1)
+      post = client.get_post(1)
 
       refute post.nil?
     end
@@ -21,6 +21,7 @@ class NelliePostTest < Minitest::Test
       client = Nellie::Client.new(access_token: 'access_token', refresh_token: 'access_token')
       client.store[:access_token] = client.access_token
       response = client.user_posts(1, count: 1)
+
       refute response.posts.nil?
       assert response.posts.count == 1
     end
