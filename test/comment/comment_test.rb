@@ -42,4 +42,13 @@ class NelliePostTest < Minitest::Test
     end
   end
 
+  def test_it_can_unlike_a_comment
+    VCR.use_cassette('unlike_comment') do
+      client = Nellie::Client.new(access_token: 'access_token', refresh_token: 'refresh_token')
+      client.store[:access_token] = client.access_token
+      response = client.unlike_comment(1, "like")
+      assert response.nil?
+    end
+  end
+
 end

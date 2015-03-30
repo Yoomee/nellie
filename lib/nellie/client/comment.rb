@@ -17,6 +17,11 @@ module Nellie
         response
       end
 
+      def unlike_comment(id, type, opts = {})
+        response = delete("comments/#{id}/likes", type: type)
+        response
+      end
+
     end
   end
 end
