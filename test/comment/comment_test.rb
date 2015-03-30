@@ -30,4 +30,16 @@ class NelliePostTest < Minitest::Test
     end
   end
 
+  def test_it_can_like_a_comment
+    VCR.use_cassette('like_comment') do
+      client = Nellie::Client.new(access_token: 'access_token', refresh_token: 'refresh_token')
+      client.store[:access_token] = client.access_token
+      response = client.like_comment(1, "like")
+
+      refute response.like.nil?
+      assert response.like.like_type == "like"
+      assert response.like.resource_type == "Comment"
+    end
+  end
+
 end
