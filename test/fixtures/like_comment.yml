@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://localhost:3001/api/v1/comments/1/likes?access_token=access_token
+    body:
+      encoding: UTF-8
+      string: '{"type":"like"}'
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Elefriends Ruby Gem 0.0.1
+      Content-Type:
+      - application/json
+      Authorization:
+      - Token token="access_token"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"2d1e119967d302435aaa8f9fb056b4df"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d60d5a80-a9f8-458b-972e-6f4c5924c0d5
+      X-Runtime:
+      - '1.212105'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.1.5/2014-11-13)
+      Date:
+      - Mon, 30 Mar 2015 10:13:49 GMT
+      Content-Length:
+      - '100'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"like":{"id":3557237,"like_type":"like","resource_id":1,"resource_type":"Comment","user_id":15554}}'
+    http_version: 
+  recorded_at: Mon, 30 Mar 2015 10:13:49 GMT
+recorded_with: VCR 2.9.3
