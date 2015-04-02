@@ -22,6 +22,11 @@ module Nellie
         response
       end
 
+      def comment_likes(id, type, opts = {})
+        response = get("comments/#{id}/likes", type: type)
+        response
+      end
+
     end
   end
 end
