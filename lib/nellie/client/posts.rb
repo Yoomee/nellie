@@ -29,7 +29,7 @@ module Nellie
       #     Nellie.user_posts(1234)
       # @format :json
       # @authenticated true
-      def posts(*opts)
+      def posts(opts)
         response = get("posts", opts)
         response
       end
