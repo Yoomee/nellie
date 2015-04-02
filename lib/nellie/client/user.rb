@@ -18,6 +18,11 @@ module Nellie
         response
       end
 
+      def user_wall(id, opts = {})
+        response = get("users/#{id}/wall", opts)
+        response
+      end
+
     end
   end
 end
