@@ -49,6 +49,11 @@ module Nellie
         response
       end
 
+      def update_post(id, text, opts = {})
+        response = put("posts/#{id}", {text: text}, opts)
+        response
+      end
+
     end
   end
 end
