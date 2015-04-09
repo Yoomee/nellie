@@ -54,6 +54,11 @@ module Nellie
         response
       end
 
+      def elephant_post(opts = {})
+        response = get("posts/elephant_post", opts)
+        response
+      end
+
     end
   end
 end
