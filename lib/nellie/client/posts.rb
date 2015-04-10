@@ -59,6 +59,11 @@ module Nellie
         response
       end
 
+      def moderator_posts(opts = {})
+        response = get("posts/moderator_wall", opts)
+        response
+      end
+
     end
   end
 end
