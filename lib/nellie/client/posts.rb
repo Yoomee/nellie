@@ -64,6 +64,11 @@ module Nellie
         response
       end
 
+      def unmoderated_posts(opts = {})
+        response = get("posts/unmoderated", opts)
+        response
+      end
+
     end
   end
 end
