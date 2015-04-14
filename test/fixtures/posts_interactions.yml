@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3001/api/v1/posts/1/interactions?access_token=access_token
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Elefriends Ruby Gem 0.0.1
+      Authorization:
+      - Token token="af898cfaeaf9e77a7addf3ede9e5b8e9fe3b86a5c599d2f14cf0c6bb4a06206c"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"978ccbce2aef2bb45ae7546ac63c6a2e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9bf6daf7-c9af-4d23-a5f6-d95fcfe5fd32
+      X-Runtime:
+      - '0.031540'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.1.5/2014-11-13)
+      Date:
+      - Tue, 14 Apr 2015 12:33:27 GMT
+      Content-Length:
+      - '1561'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"interactions":[{"id":13,"user_id":14,"created_at":"2012-11-12T12:37:17.000Z","updated_at":"2012-11-12T12:37:17.000Z","type":"like","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":14,"nickname":"Meerkat","first_name":"Brenda","last_name":"Bradley","bio":"married,
+        2 children, 2 grandchildren and one on the way, live in the beautiful Peak
+        District, Derbyshire.  Work for now in Manchester","email":"pbradley979@btinternet.com","created_at":"2012-11-12T12:31:27.000Z","profile_image":"/media/W1siZiIsIjIwMTMvMDcvMzAvMTQvMjUvMDQvOTg2LzI0MDY4XzM4MDI5MTIxMjQyM183MDYyMjI0MjNfMzk1MzI5M18xMTY5ODgyX3MuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=0c546e1aeb4c7b92","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":1,"user_id":7,"created_at":"2012-11-09T12:51:58.000Z","updated_at":"2012-11-09T12:51:58.000Z","type":"like","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":7,"nickname":"The
+        Elephant","first_name":"Elephant","last_name":"Elephant","bio":"The Elephant
+        can’t wait to meet you. Tell him how you’re feeling today. Then perhaps see
+        how his other friends are doing. ","email":"elefriends@mind.org.uk","created_at":"2012-11-09T12:24:48.000Z","profile_image":"/media/W1siZiIsIjIwMTMvMDIvMjIvMTZfMjJfNDBfNTIzX0VsZWZyaWVuZHNwcm9maWxlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=f4e3cc9a842e86ba","twitter_screen_name":null,"deleted":false,"suspended":false}}]}'
+    http_version:
+  recorded_at: Tue, 14 Apr 2015 12:33:27 GMT
+recorded_with: VCR 2.9.3

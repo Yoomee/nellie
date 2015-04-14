@@ -39,4 +39,15 @@ class NelliePostTest < Minitest::Test
     end
   end
 
+  def test_it_can_get_a_posts_interactions
+    VCR.use_cassette('posts_interactions') do
+      client = Nellie::Client.new(access_token: 'access_token', refresh_token: 'access_token')
+      client.store[:access_token] = client.access_token
+      response = client.post_interactions(1)
+      refute response.interactions.nil?
+      assert response.interactions.count == 2
+      refute response.interactions[0].user.nil?
+    end
+  end
+
 end

@@ -49,6 +49,11 @@ module Nellie
         response
       end
 
+      def post_interactions(id, opts = {})
+        response = get("posts/#{id}/interactions", opts)
+        response
+      end
+
       def update_post(id, text, opts = {})
         response = put("posts/#{id}", {text: text}, opts)
         response
