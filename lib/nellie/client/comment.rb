@@ -2,6 +2,10 @@ module Nellie
   class Client
     module Comment
 
+      def get_comment(id)
+        get("comments/#{id}")
+      end
+
       def create_comment(post_id, text, opts = {})
         response = post("posts/#{post_id}/comments", text: text)
         response
