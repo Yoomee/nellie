@@ -74,6 +74,11 @@ module Nellie
         response
       end
 
+      def feedback_posts(opts = {})
+        response = get("posts/feedback_wall", opts)
+        response
+      end
+
     end
   end
 end

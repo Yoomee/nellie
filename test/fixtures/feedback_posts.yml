@@ -1,0 +1,294 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3001/api/v1/posts/feedback_wall?access_token=access_token
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Elefriends Ruby Gem 0.0.1
+      Authorization:
+      - Token token="ff3f1ee75d3b8d53ee1d511df2f5e403d1d4ec10ae9b83c8692766cd81f17996"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"0e45006a6849e13d95c9f0fc264c367d"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 11596915-385e-483c-b002-349ed132e744
+      X-Runtime:
+      - '0.370083'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.1.5/2014-11-13)
+      Date:
+      - Thu, 16 Apr 2015 11:58:16 GMT
+      Content-Length:
+      - '47504'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"posts":[{"id":442963,"text":"Would elefriends join Facebook and let
+        people go on there too? Make it private so only people with mental health
+        problems can be on there? Just a thought, as I keep forgetting to come back
+        on to check if people have messaged me and I feel I let them down in supporting
+        them when I can ie if they are feeling low or visa versa :)","created_at":"2015-03-01T17:25:59.000Z","updated_at":"2015-03-01T17:25:59.000Z","user_id":15379,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":0,"feedback":true,"user":{"id":15379,"nickname":"toni_maria","first_name":"Toni","last_name":"Maria","bio":"hi!
+        im toni.. im 22 and i lost my dad very suddenly july 31st 2013 and i am now
+        suffering from anixtey and depression, ive abused alcohol, food and known
+        to self harm so i thought doing this would improve how im feeling and maybe
+        help others. if you want you can also add me on fb: https://www.facebook.com/tonibottom","email":"tonibottom@hotmail.com","created_at":"2014-07-26T01:41:56.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDkvMjUvMjAvNTkvNTQvNjI0LzEwNzA4NzUyXzY4MzgwMDMyODM1NjQyMl82MjA0MjI0OTI1NjM4NDQ1NDE5X28uanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=d246f5a374e40049","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[]},{"id":442529,"text":"Why
+        does your website use Google analytics \u0026 new relic trackers/tracking
+        cookies? ","created_at":"2015-03-01T03:16:26.000Z","updated_at":"2015-03-01T03:16:26.000Z","user_id":14192,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":0,"feedback":true,"user":{"id":14192,"nickname":"little.blue","first_name":"Anon","last_name":"Anonymous","bio":"\r\nThe
+        elefriend formerly known as Ravyn. \r\n................. \r\n \r\nI struggle
+        with depression, anxiety/social anxiety, low self-esteem, ocd and insomnia.
+        I like music and the internet. I''m also struggling with clutter \u0026 procrastination.
+        \r\n","email":"the_bodhi_tree@hotmail.com","created_at":"2014-06-11T04:49:37.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTEvMjcvMDYvMjIvMzYvMTczL2VsZXBoYW50X2hlYXJ0X2Nyb3BwZWRfMi5wbmciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=d1d8c4f7b9fe89f0","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[]},{"id":442286,"text":"Would
+        be nice to know if there are local people who could meet up \u0026 make friends
+        \u0026 offer mutual support","created_at":"2015-02-28T21:20:45.000Z","updated_at":"2015-02-28T21:20:45.000Z","user_id":25835,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":1,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":1,"feedback":true,"user":{"id":25835,"nickname":"souizee","first_name":"Anon","last_name":"Anonymous","bio":null,"email":"souizee.thomas2014@gmail.com","created_at":"2015-02-28T10:57:05.000Z","profile_image":null,"twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":1317292,"user_id":14192,"created_at":"2015-03-01T03:17:47.000Z","updated_at":"2015-03-01T03:17:47.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Maybe
+        you have a local Mind/support group? Or meetup.com?","post_id":442286,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":14192,"nickname":"little.blue","first_name":"Anon","last_name":"Anonymous","bio":"\r\nThe
+        elefriend formerly known as Ravyn. \r\n................. \r\n \r\nI struggle
+        with depression, anxiety/social anxiety, low self-esteem, ocd and insomnia.
+        I like music and the internet. I''m also struggling with clutter \u0026 procrastination.
+        \r\n","email":"the_bodhi_tree@hotmail.com","created_at":"2014-06-11T04:49:37.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTEvMjcvMDYvMjIvMzYvMTczL2VsZXBoYW50X2hlYXJ0X2Nyb3BwZWRfMi5wbmciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=d1d8c4f7b9fe89f0","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":441904,"text":"I
+        think there should be a block button for people who upset you or trigger you.
+        Clicking ignore doesn''t really help as you still see their posts every time
+        :/ and there are one or two people that are quite rude who i wish i could
+        stop from commenting on my posts...also I agree that it can be a lot to scroll
+        through so different sections or a search function could be good. I think
+        elefriends is a great place though x","created_at":"2015-02-28T14:18:09.000Z","updated_at":"2015-02-28T14:18:09.000Z","user_id":19016,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":1,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":1,"feedback":true,"user":{"id":19016,"nickname":"littlejojo","first_name":"Jo","last_name":"Dace","bio":"20
+        years old. Apparently I have Emotionally Unstable/Borderline Personality Disorder.
+        Feel failed by MH services.","email":"biggirlie@outlook.com","created_at":"2014-10-31T17:07:48.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTIvMjcvMjMvNTQvNDkvOTg3L2VleW9yZS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=5e57c49af3a407ad","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":3548300,"user_id":14192,"created_at":"2015-03-01T03:14:06.000Z","updated_at":"2015-03-01T03:14:06.000Z","type":"like","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":14192,"nickname":"little.blue","first_name":"Anon","last_name":"Anonymous","bio":"\r\nThe
+        elefriend formerly known as Ravyn. \r\n................. \r\n \r\nI struggle
+        with depression, anxiety/social anxiety, low self-esteem, ocd and insomnia.
+        I like music and the internet. I''m also struggling with clutter \u0026 procrastination.
+        \r\n","email":"the_bodhi_tree@hotmail.com","created_at":"2014-06-11T04:49:37.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTEvMjcvMDYvMjIvMzYvMTczL2VsZXBoYW50X2hlYXJ0X2Nyb3BwZWRfMi5wbmciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=d1d8c4f7b9fe89f0","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":441690,"text":"I
+        hope this website will also has a chat room, just a suggestion, I hope I can
+        gain more friends here. And I hope, my life will improve, hopefully.","created_at":"2015-02-28T10:03:39.000Z","updated_at":"2015-02-28T10:03:39.000Z","user_id":25825,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":0,"feedback":true,"user":{"id":25825,"nickname":"Angel
+        Varez","first_name":"Anon","last_name":"Anonymous","bio":"I try my best to
+        have positive mental outlook in my life, but my negative memories and life
+        situation right now makes me more prone to death wishes and staying in bed
+        all day. I have no stable job, no money, no friends, no girlfriend, my life
+        is a mess. I don''t want to pray to God anymore because my prayers with him
+        is still the same. Right now, i am writing short stories to make me back on
+        my feet and hang in here in Elefriend. Some day I want to be a writer (if
+        God still allowing me a to live a longer period of time, but frankly, I no
+        longer want to live, I want to die as soon as possible) of fictions. I also
+        want to write an autobiography about my struggles in depression, when that
+        time comes, I considered myself a survivor and I want to be an inspiration
+        to some others who is struggling with the illness. ","email":"roelvictoralvarez@yahoo.com","created_at":"2015-02-27T23:40:58.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDIvMDEvNTcvNTAvNzQvbXlfcGljdHVyZS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=2531dd1ad3c13337","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[]},{"id":441689,"text":"I
+        hope this website will also has a chat room, just a suggestion, I hope I can
+        gain more friends here. And I hope, my life will improve, hopefully.","created_at":"2015-02-28T10:03:36.000Z","updated_at":"2015-02-28T10:05:05.000Z","user_id":25825,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":true,"removed_by_name":"Anon
+        Anonymous","moderated":false,"moderated_by_name":"","interactions_count":0,"feedback":true,"user":{"id":25825,"nickname":"Angel
+        Varez","first_name":"Anon","last_name":"Anonymous","bio":"I try my best to
+        have positive mental outlook in my life, but my negative memories and life
+        situation right now makes me more prone to death wishes and staying in bed
+        all day. I have no stable job, no money, no friends, no girlfriend, my life
+        is a mess. I don''t want to pray to God anymore because my prayers with him
+        is still the same. Right now, i am writing short stories to make me back on
+        my feet and hang in here in Elefriend. Some day I want to be a writer (if
+        God still allowing me a to live a longer period of time, but frankly, I no
+        longer want to live, I want to die as soon as possible) of fictions. I also
+        want to write an autobiography about my struggles in depression, when that
+        time comes, I considered myself a survivor and I want to be an inspiration
+        to some others who is struggling with the illness. ","email":"roelvictoralvarez@yahoo.com","created_at":"2015-02-27T23:40:58.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDIvMDEvNTcvNTAvNzQvbXlfcGljdHVyZS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=2531dd1ad3c13337","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[]},{"id":441687,"text":"I
+        hope this website will also has a chat room, just a suggestion, I hope I can
+        gain more friends here. And I hope, my life will improve, hopefully.","created_at":"2015-02-28T10:02:11.000Z","updated_at":"2015-02-28T10:05:13.000Z","user_id":25825,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":true,"removed_by_name":"Anon
+        Anonymous","moderated":false,"moderated_by_name":"","interactions_count":0,"feedback":true,"user":{"id":25825,"nickname":"Angel
+        Varez","first_name":"Anon","last_name":"Anonymous","bio":"I try my best to
+        have positive mental outlook in my life, but my negative memories and life
+        situation right now makes me more prone to death wishes and staying in bed
+        all day. I have no stable job, no money, no friends, no girlfriend, my life
+        is a mess. I don''t want to pray to God anymore because my prayers with him
+        is still the same. Right now, i am writing short stories to make me back on
+        my feet and hang in here in Elefriend. Some day I want to be a writer (if
+        God still allowing me a to live a longer period of time, but frankly, I no
+        longer want to live, I want to die as soon as possible) of fictions. I also
+        want to write an autobiography about my struggles in depression, when that
+        time comes, I considered myself a survivor and I want to be an inspiration
+        to some others who is struggling with the illness. ","email":"roelvictoralvarez@yahoo.com","created_at":"2015-02-27T23:40:58.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDIvMDEvNTcvNTAvNzQvbXlfcGljdHVyZS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=2531dd1ad3c13337","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[]},{"id":441495,"text":"I
+        would appreciate maybe a little icon or something to let people know whether
+        you are online or not. if that is possible. x","created_at":"2015-02-27T23:42:12.000Z","updated_at":"2015-02-27T23:42:12.000Z","user_id":25588,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":1,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":1,"feedback":true,"user":{"id":25588,"nickname":"Cet","first_name":"Anon","last_name":"Anonymous","bio":"I
+        have only recently accepted that I suffer with mental health problems. I''m
+        scared of seeking professional help as I am worried about being misunderstood
+        as I have had unpleasant previous experience. But I hope to meet some nice
+        people on here and maybe start recovering.","email":"ktakacet@gmail.com","created_at":"2015-02-23T16:52:42.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjMvMTcvMDQvNTEvODc2L2hhbXN0ZXIuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=bad9b20c770acc97","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":1317293,"user_id":14192,"created_at":"2015-03-01T03:18:44.000Z","updated_at":"2015-03-01T03:18:44.000Z","type":"comment","likes":{"count":1,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"If
+        that happens, also need an ''invisible'' option for when you''re not feeling
+        sociable. ","post_id":441495,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":14192,"nickname":"little.blue","first_name":"Anon","last_name":"Anonymous","bio":"\r\nThe
+        elefriend formerly known as Ravyn. \r\n................. \r\n \r\nI struggle
+        with depression, anxiety/social anxiety, low self-esteem, ocd and insomnia.
+        I like music and the internet. I''m also struggling with clutter \u0026 procrastination.
+        \r\n","email":"the_bodhi_tree@hotmail.com","created_at":"2014-06-11T04:49:37.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTEvMjcvMDYvMjIvMzYvMTczL2VsZXBoYW50X2hlYXJ0X2Nyb3BwZWRfMi5wbmciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=d1d8c4f7b9fe89f0","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":441130,"text":"I
+        appreciate the support I get from elefriends.  I am amazed in how they help
+        me see the positives through the negatives.   I would love to go more meet
+        ups to socialise with more elefriends. ","created_at":"2015-02-27T17:44:14.000Z","updated_at":"2015-02-27T17:44:14.000Z","user_id":9401,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":1,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":2,"feedback":true,"user":{"id":9401,"nickname":"Beth2014","first_name":"Anon","last_name":"Anonymous","bio":"Suffered
+        with a psychotic episode 2010.  I live in a supported housing accommodation
+        with Gofal.  I have a degree BSc Music Technology.  I''m learning to cope
+        with day to day activities such as keeping myself clean and tidy.  I am on
+        mission to get myself better from depression and binge eating disorder.  Trying
+        to find happiness within me and be successful for who I am.","email":"bethclairelewis@live.com","created_at":"2014-01-10T10:11:21.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTEvMDcvMTkvNDUvMTAvMTc2L2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=fc732815da98dfa5","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":3548758,"user_id":25847,"created_at":"2015-03-01T08:15:52.000Z","updated_at":"2015-03-01T08:15:52.000Z","type":"like","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":25847,"nickname":"dailystruggle","first_name":"Anon","last_name":"Anonymous","bio":null,"email":"nicola-griffiths@live.co.uk","created_at":"2015-02-28T18:51:42.000Z","profile_image":null,"twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":3548757,"user_id":25847,"created_at":"2015-03-01T08:15:52.000Z","updated_at":"2015-03-01T08:15:52.000Z","type":"hear","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":25847,"nickname":"dailystruggle","first_name":"Anon","last_name":"Anonymous","bio":null,"email":"nicola-griffiths@live.co.uk","created_at":"2015-02-28T18:51:42.000Z","profile_image":null,"twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":440214,"text":"I
+        find it too much to scroll through.  Can there maybe be post titles that you
+        then click into?  Different forum sections might be helpful too.  Feedback
+        from what you might change in an easy place to see would be good.  Thank you
+        for setting this site up for everyone x","created_at":"2015-02-26T18:10:00.000Z","updated_at":"2015-02-26T18:10:00.000Z","user_id":24022,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":0,"feedback":true,"user":{"id":24022,"nickname":"Littleweeble","first_name":"Anon","last_name":"Anonymous","bio":"","email":"mumjackie@yahoo.co.uk","created_at":"2015-01-19T03:47:39.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDEvMTkvMDQvMjgvNDMvMjU1L2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=4367d1f014926300","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[]},{"id":437125,"text":"HAs
+        anyone ever thought about when we upload pictures that it may be nice to introduce
+        an album feature on here ? I quite like to post art work up from time to time
+        on here as I dont really want to post it in Facebook as I feel a little shy
+        about doing so! and it would be nice to have a folder for it on my page. Just
+        a thought :) ","created_at":"2015-02-23T18:41:23.000Z","updated_at":"2015-02-23T18:41:23.000Z","user_id":23403,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":1,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":1,"feedback":true,"user":{"id":23403,"nickname":"Little
+        Killjoy","first_name":"Anon","last_name":"Anonymous","bio":"Hello everyone,
+        I''m 23 yr old female and  I have anxiety and depression of some sort. My
+        new years resolution was to go to the doctors about it and I finally did this
+        end of January and was prescribed sertraline 50mg although im going back soon
+        to ask for councelling instead, I''ve suffered for at least 4 years, maybe
+        even more like 6/7. I think I''m in denial most the time ","email":"sophie.venning@outlook.com","created_at":"2015-01-05T11:23:51.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDEvMDUvMTIvMDQvMzUvOTkvaW1hZ2VzRks0QUJKSDQuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=ce696c0bbbaab85a","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":3517469,"user_id":14198,"created_at":"2015-02-25T07:56:43.000Z","updated_at":"2015-02-25T07:56:43.000Z","type":"like","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":14198,"nickname":"cottonwool","first_name":"Anon","last_name":"Anonymous","bio":"just
+        a girl who wants to feel different and whos been upset for way too long and
+        doesnt know how to make things better........ twin soul connection which some
+        dont understand felt unloved since was a little girl and never fully believe
+        people like me.. any hint that someone is being strange with me and i get
+        easily upset.. im very sensitive and just want to be happy.... also have abandonment
+        issues.. also wanted to write here that I don''t feel people ever like me
+        enough or are going to like me so I sometimes get very upset if anyone acts
+        wierd with me or I think they are being off with me. I think part of me just
+        feels like people are going to not be very nice to me or treat me like im
+        annoying and i''m not sure where that feeling comes from. I also feel like
+        I''m way too sensitive and can get easily upset about things aswell. I can
+        get insecure sometimes about friendships but when I say I care about someone
+        i mean it. I also like animals, I love cats and talk to them sometimes.\r\n\r\nhave
+        a few interests including yoga, japanese anime, and listening to music, sometimes
+        listen to radio 4, knitting and writing poetry.\r\n\r\ncry more than i used
+        to and never used to cry that much dont really know whats happened to me..","email":"peaches17@hotmail.co.uk","created_at":"2014-06-11T12:23:36.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMTYvMDEvMzUvNDA3L21lcm1haWRiLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=e76dfd24894b36f3","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":437048,"text":"I''m
+        constantly worrying about anonymity and because the comment box is light blue
+        which is quite similar to Facebook, it makes me anxious (even though I know
+        it isn''t linked to my Facebook). A personal request would be to change the
+        colour but I know I''m probably the only person who feels this way about it.","created_at":"2015-02-23T17:08:09.000Z","updated_at":"2015-02-23T17:08:09.000Z","user_id":25578,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":0,"feedback":true,"user":{"id":25578,"nickname":"Fleur-Jamey","first_name":"Anon","last_name":"Anonymous","bio":"I''m
+        crazy.","email":"jessica.a.birch@live.co.uk","created_at":"2015-02-23T14:34:39.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjMvMTQvNDAvMzcvOTQzLzc5MTU5LmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=efdf357d7a6c59ac","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[]},{"id":435192,"text":"I
+        really love elefriends, a good place to make friends, talk and have a rant.  Just
+        wondering why when i post something, that only half of it gets posted and
+        the other half gets missed off which is a lil frustrating. Its only recently
+        started occuring in the last few weeks. Hope you can sort this for me. ","created_at":"2015-02-21T17:18:02.000Z","updated_at":"2015-02-21T17:18:02.000Z","user_id":6388,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":0,"feedback":true,"user":{"id":6388,"nickname":"lynnemarie","first_name":"Anon","last_name":"Anonymous","bio":"i''m
+        lynnemarie, i''m 25 yrs old, i''m mildly autistic and have a few other mild
+        difficulties - and because of this mildness... my autistic problems werent
+        picked up for years and i''ve warn a mask to hide and pretend. I''ve suffered
+        with depression, anxiety for da past 9 yrs and i also have a very young child
+        (3 -5 yr old) within me - its very difficult for me - where my family doesn''t
+        understand or accept which is very hard. Please forgive mes if my posts dont
+        make sense, it is one of the only ways that little marie can express... So
+        u can tell when im in big or lil mode. Elefriends is da best :)","email":"happy-bunny-18@hotmail.co.uk","created_at":"2013-08-25T10:04:50.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjAvMTMvMTAvNTkvNjcwL2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=01e13141eff43dcf","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[]},{"id":432112,"text":"Is
+        there an iPhone app coming soon?","created_at":"2015-02-18T09:55:59.000Z","updated_at":"2015-02-18T09:55:59.000Z","user_id":25335,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":2,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":2,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":1,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":6,"feedback":true,"user":{"id":25335,"nickname":"Stephanie17","first_name":"Anon","last_name":"Anonymous","bio":"I
+        have been diagnosed with Depression, with insomnia, anxiety and possibly ocd.
+        I currently feel like my world is crumbling around me. I feel like a total
+        failure. I hate just existing. Come on here so I can try and help other people,
+        and explore my own issues. PM open to all. Big ele cuddles to all. As you
+        may have guessed I''m a total softy. But in the outside world that''s our
+        secret.","email":"stephjude@hotmail.co.uk","created_at":"2015-02-17T20:16:30.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjAvMTAvMjEvMzQvODIxL2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=5b12cb5e02f79fd5","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":3505321,"user_id":25578,"created_at":"2015-02-23T17:05:09.000Z","updated_at":"2015-02-23T17:05:09.000Z","type":"like","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":25578,"nickname":"Fleur-Jamey","first_name":"Anon","last_name":"Anonymous","bio":"I''m
+        crazy.","email":"jessica.a.birch@live.co.uk","created_at":"2015-02-23T14:34:39.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjMvMTQvNDAvMzcvOTQzLzc5MTU5LmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=efdf357d7a6c59ac","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":3488617,"user_id":24528,"created_at":"2015-02-21T12:56:08.000Z","updated_at":"2015-02-21T12:56:08.000Z","type":"like","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":24528,"nickname":"Happymess","first_name":"Anon","last_name":"Anonymous","bio":"41
+        year old Irish female.\r\nMarried.\r\nNot the happiest marriage but we''re
+        trying to find our way back. \r\nOne son. One incredible son. \r\nI live in
+        London. \r\nPanic disorder and depression are my bed companions.\r\nTraces
+        of BPD  allegedly but never been properly diagnosed. \r\nI have a fear of
+        the most ridiculous things which can make life unbearable at times. I''m moody
+        as in I go up and down. A lot.\r\nI got this fire in my belly though, it keeps
+        me going.\r\nDetermined to be well and have made improvements. \r\nThere are
+        some really special eles here, ones who have had a big impact on my life.
+        \r\nSome are still here. \r\nSome sadly not.\r\nI raise a glass to you all.\r\n\r\nPoetry
+        is still my passion. I might suck at it but I love writing and playing with
+        words.\r\nI''m an open minded and friendly person and humour matters to me
+        greatly. \r\nFeel free to contact me for a chat.\r\nMy page of poems, photos
+        and rants is on Facebook under Happymess. \r\nPlease feel free to drop by.
+        ","email":"katie_hill10@aol.co.uk","created_at":"2015-02-02T06:47:49.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjUvMjMvNDgvMzEvNjIvMjAxNV8wMl8yNV8yMy40My4yNy5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=9703b46cf525f163","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":1294796,"user_id":22829,"created_at":"2015-02-18T19:49:35.000Z","updated_at":"2015-02-18T19:49:35.000Z","type":"comment","likes":{"count":1,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Elephant
+        held two workshops to ask what Eles want with the app. I heard they''re making
+        iPhone one and Android one. You can give feedbacks on Elephant''s posts on
+        workshops if you''ve got some ideas.","post_id":432112,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":22829,"nickname":"Pem","first_name":"Anon","last_name":"Anonymous","bio":"","email":"egs11an@sheffield.ac.uk","created_at":"2014-12-21T18:15:39.000Z","profile_image":null,"twitter_screen_name":null,"deleted":true,"suspended":false}},{"id":3469685,"user_id":22829,"created_at":"2015-02-18T19:48:27.000Z","updated_at":"2015-02-18T19:48:27.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":22829,"nickname":"Pem","first_name":"Anon","last_name":"Anonymous","bio":"","email":"egs11an@sheffield.ac.uk","created_at":"2014-12-21T18:15:39.000Z","profile_image":null,"twitter_screen_name":null,"deleted":true,"suspended":false}}]},{"id":431325,"text":"cant
+        wait for the app i really hope its free \r\nalso it wouls be great to star
+        friends so if you have made a connect with someone you will not lose them
+        and can find the stright away ","created_at":"2015-02-17T12:41:41.000Z","updated_at":"2015-02-17T12:41:41.000Z","user_id":22475,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":1,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":2,"feedback":true,"user":{"id":22475,"nickname":"zoealone","first_name":"Zoe","last_name":"Haslam","bio":"hello
+        i was ditch by boyfriend of 6 years am at the lowest i have ever felt it has
+        turned my life upside down am just trying to find some where to turn i think
+        i have anxiety but not been to doctor i worry about the future all the time","email":"zoehaslam6@hotmail.com","created_at":"2014-12-14T19:31:04.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMDEvMTkvNTcvMzUvMzIvdW50aXRsZWQucG5nIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=396fd1e6bd643246","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":3488623,"user_id":24528,"created_at":"2015-02-21T12:56:16.000Z","updated_at":"2015-02-21T12:56:16.000Z","type":"hear","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":24528,"nickname":"Happymess","first_name":"Anon","last_name":"Anonymous","bio":"41
+        year old Irish female.\r\nMarried.\r\nNot the happiest marriage but we''re
+        trying to find our way back. \r\nOne son. One incredible son. \r\nI live in
+        London. \r\nPanic disorder and depression are my bed companions.\r\nTraces
+        of BPD  allegedly but never been properly diagnosed. \r\nI have a fear of
+        the most ridiculous things which can make life unbearable at times. I''m moody
+        as in I go up and down. A lot.\r\nI got this fire in my belly though, it keeps
+        me going.\r\nDetermined to be well and have made improvements. \r\nThere are
+        some really special eles here, ones who have had a big impact on my life.
+        \r\nSome are still here. \r\nSome sadly not.\r\nI raise a glass to you all.\r\n\r\nPoetry
+        is still my passion. I might suck at it but I love writing and playing with
+        words.\r\nI''m an open minded and friendly person and humour matters to me
+        greatly. \r\nFeel free to contact me for a chat.\r\nMy page of poems, photos
+        and rants is on Facebook under Happymess. \r\nPlease feel free to drop by.
+        ","email":"katie_hill10@aol.co.uk","created_at":"2015-02-02T06:47:49.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjUvMjMvNDgvMzEvNjIvMjAxNV8wMl8yNV8yMy40My4yNy5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=9703b46cf525f163","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":3488622,"user_id":24528,"created_at":"2015-02-21T12:56:15.000Z","updated_at":"2015-02-21T12:56:15.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":24528,"nickname":"Happymess","first_name":"Anon","last_name":"Anonymous","bio":"41
+        year old Irish female.\r\nMarried.\r\nNot the happiest marriage but we''re
+        trying to find our way back. \r\nOne son. One incredible son. \r\nI live in
+        London. \r\nPanic disorder and depression are my bed companions.\r\nTraces
+        of BPD  allegedly but never been properly diagnosed. \r\nI have a fear of
+        the most ridiculous things which can make life unbearable at times. I''m moody
+        as in I go up and down. A lot.\r\nI got this fire in my belly though, it keeps
+        me going.\r\nDetermined to be well and have made improvements. \r\nThere are
+        some really special eles here, ones who have had a big impact on my life.
+        \r\nSome are still here. \r\nSome sadly not.\r\nI raise a glass to you all.\r\n\r\nPoetry
+        is still my passion. I might suck at it but I love writing and playing with
+        words.\r\nI''m an open minded and friendly person and humour matters to me
+        greatly. \r\nFeel free to contact me for a chat.\r\nMy page of poems, photos
+        and rants is on Facebook under Happymess. \r\nPlease feel free to drop by.
+        ","email":"katie_hill10@aol.co.uk","created_at":"2015-02-02T06:47:49.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjUvMjMvNDgvMzEvNjIvMjAxNV8wMl8yNV8yMy40My4yNy5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=9703b46cf525f163","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":430693,"text":"If
+        you sign up through fb, it shouldn''t automatically grab your profile picture...not
+        everyone wants their photo associated with this group. Employers can easily
+        search using images..","created_at":"2015-02-16T20:04:14.000Z","updated_at":"2015-02-16T20:04:14.000Z","user_id":25287,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":1,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":1,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":2,"feedback":true,"user":{"id":25287,"nickname":"Hhugo
+        ","first_name":"Hugo","last_name":"Williams","bio":"","email":"hugotwilliams@googlemail.com","created_at":"2015-02-16T19:54:05.000Z","profile_image":null,"twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":3469717,"user_id":22829,"created_at":"2015-02-18T19:50:06.000Z","updated_at":"2015-02-18T19:50:06.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":22829,"nickname":"Pem","first_name":"Anon","last_name":"Anonymous","bio":"","email":"egs11an@sheffield.ac.uk","created_at":"2014-12-21T18:15:39.000Z","profile_image":null,"twitter_screen_name":null,"deleted":true,"suspended":false}},{"id":1291603,"user_id":22475,"created_at":"2015-02-17T12:39:09.000Z","updated_at":"2015-02-17T12:39:09.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"you
+        can change it on your profile on elefriends once your set up","post_id":430693,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":22475,"nickname":"zoealone","first_name":"Zoe","last_name":"Haslam","bio":"hello
+        i was ditch by boyfriend of 6 years am at the lowest i have ever felt it has
+        turned my life upside down am just trying to find some where to turn i think
+        i have anxiety but not been to doctor i worry about the future all the time","email":"zoehaslam6@hotmail.com","created_at":"2014-12-14T19:31:04.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMDEvMTkvNTcvMzUvMzIvdW50aXRsZWQucG5nIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=396fd1e6bd643246","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":429807,"text":"I
+        just noticed deleted comments still appear on \"show all\" page. I don''t
+        know how many people actually care or see, but it''d be safer to hide them
+        if possible. I mean, such comments are deleted because they shouldn''t be
+        seen by anybody, so I prefer them deleted completely everywhere.","created_at":"2015-02-15T22:15:00.000Z","updated_at":"2015-02-15T22:15:00.000Z","user_id":22829,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":0,"feedback":true,"user":{"id":22829,"nickname":"Pem","first_name":"Anon","last_name":"Anonymous","bio":"","email":"egs11an@sheffield.ac.uk","created_at":"2014-12-21T18:15:39.000Z","profile_image":null,"twitter_screen_name":null,"deleted":true,"suspended":false},"recent_interactions":[]},{"id":428024,"text":"Love
+        love love this is such a relief to talk to people who understand and don''t
+        judge me! Thank you mind! ","created_at":"2015-02-13T23:36:34.000Z","updated_at":"2015-02-14T07:03:51.000Z","user_id":25054,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":true,"removed_by_name":"Anon
+        Anonymous","moderated":false,"moderated_by_name":"","interactions_count":0,"feedback":true,"user":{"id":25054,"nickname":"Anniecp
+        ","first_name":"Anon","last_name":"Anonymous","bio":"I will tell my story
+        of MH illness but don''t want to be defined by it. It started with anorexia  when
+        I was 16 then depression and self harming. 6 years later I''m still going
+        through it and suffer with anxiety. I hope to one day help others and become
+        an a\u0026e nurse. Stay strong, thinking of you all ","email":"anwenpearce@hotmail.co.uk","created_at":"2015-02-11T10:28:17.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjQvMDAvMzAvMjEvMTQ5L2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=331dbc67bb100553","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[]},{"id":427284,"text":"I
+        think it would be a good idea if they ele and his handlers were around more
+        often","created_at":"2015-02-13T07:40:50.000Z","updated_at":"2015-02-13T07:40:50.000Z","user_id":7026,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":0,"feedback":true,"user":{"id":7026,"nickname":"Shane
+        Cooke","first_name":"Anon","last_name":"Anonymous","bio":"I was bought up
+        in care, got to know my birth mother in November 1998, but she died in January
+        1999. Ever since then I been suffering with mh problems. Soon after this I
+        had a major reaction to medication that ended up with me going to prison were
+        all I wanted was help. last year (2013) I was diagnosed with BPD, been in
+        out of hospital, been on all sorts of medication, and talking therapy''s,
+        currently waiting for coping skills and mindfulness courses and DBT, Some
+        days I can cope with the voices and the visual hallucinations, but often I
+        can''t.\r\n\r\nStarted college in September (2014) doing a course in retail,
+        one of the first things I had to do was a presentation in front of the whole
+        class, I did it on bpd and now I think everyone understands me better,\r\n\r\nHad
+        to give up my college course due to the major relapse I''ve had","email":"shaneroystoncooke@sky.com","created_at":"2013-10-17T04:36:59.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTEvMTEvMDgvMTQvMDIvNTMvNDY5NTZfMTAyMDIyNjQzOTAzOTc2OTJfMTQ4MzMzMTQ5N19uXzJfLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=d00842b47736465e","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[]},{"id":427123,"text":"I
+        don''t know if this is addressed anywhere in here, but is there a safe way
+        to report ele friends who we may be concerned are a danger to themselves?
+        The report button in postings only seems to cover the contents of that one
+        post?","created_at":"2015-02-12T22:57:39.000Z","updated_at":"2015-02-12T22:57:39.000Z","user_id":24076,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":0,"feedback":true,"user":{"id":24076,"nickname":"Niwa","first_name":"Suzanna","last_name":"Baptiste","bio":"","email":"suzanbaptiste@aol.co.uk","created_at":"2015-01-20T15:19:54.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDEvMjAvMTUvMjEvNTYvMTc3L3dhdGVyX3NwbGFzaF9idXR0ZWZseV9pc29sYXRlZF8yMzA4MDQ1Ny5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=86d9d905ae73f418","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[]}],"meta":{"more_posts":false}}'
+    http_version:
+  recorded_at: Thu, 16 Apr 2015 11:58:16 GMT
+recorded_with: VCR 2.9.3
