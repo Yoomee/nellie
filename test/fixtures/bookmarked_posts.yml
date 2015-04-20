@@ -1,0 +1,981 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3001/api/v1/posts/bookmarked_wall?access_token=1761923a5fea9e2f35602df2a6bb336887d2ce2397639ab3474ab27013c6df22
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Elefriends Ruby Gem 0.0.1
+      Authorization:
+      - Token token="1761923a5fea9e2f35602df2a6bb336887d2ce2397639ab3474ab27013c6df22"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"e70f09257c7965fba0ac352d12748255"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a831362d-307c-495e-8c6e-85fcf51115bb
+      X-Runtime:
+      - '1.314856'
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.1.5/2014-11-13)
+      Date:
+      - Mon, 20 Apr 2015 15:18:40 GMT
+      Content-Length:
+      - '138179'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"posts":[{"id":392472,"text":"Hello eles, leaving this site but not
+        deleting my profile so I can pop back if needs be. Reasons being: I do not
+        wish to be an enabler to some people, I think house rules need to be more
+        clear and concise regarding posting of delusions. More on that on my profile.\r\nI
+        hope you all have a wonderful, positive and calm new year. Seek out exciting
+        opportunities, fight for the support you need and keep the faith. \r\nWww.behaviorismandmentalhealth.com
+        ","created_at":"2015-01-02T10:33:50.000Z","updated_at":"2015-01-02T10:33:52.000Z","user_id":22261,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":10,"link_url":null,"link_title":"Behaviorism
+        and Mental Health — An alternative perspective on mental disorders | PHILIP
+        HICKEY, PH.D.","link_description":"An alternative perspective on mental disorders
+        | PHILIP HICKEY, PH.D.","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":5,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":true,"moderated_by_name":"Sam
+        Challis","interactions_count":15,"feedback":false,"user":{"id":22261,"nickname":"lillyflower","first_name":"Anon","last_name":"Anonymous","bio":"Female
+        business owner. Survivor of domestic violence. I have agoraphobia. I don''t
+        believe in medication because I believe in behaviourism explanations of mental
+        health. I pay for private therapy sessions with a clinical psychologist. \r\nAnxiety
+        has been a testing thing to deal with, but it has also made me kinder, more
+        compassionate and appreciate my partner so much more. Every cloud..","email":"sjpickles.sp@googlemail.com","created_at":"2014-12-11T14:19:06.000Z","profile_image":null,"twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":1194484,"user_id":14639,"created_at":"2015-01-02T16:39:22.000Z","updated_at":"2015-01-02T16:39:22.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"please
+        be looking after yourself and please be coming back, many blessings xxx","post_id":392472,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":14639,"nickname":"Justice","first_name":"Anon","last_name":"Anonymous","bio":"i
+        am doing the disappearing.","email":"raidahkhan@muslim.com","created_at":"2014-06-29T16:40:08.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDcvMDcvMTYvNTMvMTgvMTkxLzIwMDZBQzkxNjlfdGlsZV9pcmFuX292ZXJsYXkyOTAuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=feb7d81ff2084e46","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":1194482,"user_id":22261,"created_at":"2015-01-02T16:38:34.000Z","updated_at":"2015-01-02T16:38:34.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Thanks
+        justice will tale it all onward. I have had enough for one day x","post_id":392472,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":22261,"nickname":"lillyflower","first_name":"Anon","last_name":"Anonymous","bio":"Female
+        business owner. Survivor of domestic violence. I have agoraphobia. I don''t
+        believe in medication because I believe in behaviourism explanations of mental
+        health. I pay for private therapy sessions with a clinical psychologist. \r\nAnxiety
+        has been a testing thing to deal with, but it has also made me kinder, more
+        compassionate and appreciate my partner so much more. Every cloud..","email":"sjpickles.sp@googlemail.com","created_at":"2014-12-11T14:19:06.000Z","profile_image":null,"twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":1194479,"user_id":14639,"created_at":"2015-01-02T16:37:44.000Z","updated_at":"2015-01-02T16:37:44.000Z","type":"comment","likes":{"count":1,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"i
+        am agreeing about the domestic violence, i am thinking that it is not ok to
+        be leaving the graphic things up, but i am not seeing what it is saying so
+        i cannot be commenting, if i am seeing, i am reporting. the best thing i can
+        be saying about the other thing is to be quickly going past when you are seeing
+        the names you are wanting to be avoiding, it is taking the determination not
+        to be looking, but we are needing to be understanding that if we are looking,
+        there is the reason why, yes? the other thing you can be doing is hiding them,
+        this it is ok too, i am doing this before after the problem with somebody
+        here and it is working xxx","post_id":392472,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":14639,"nickname":"Justice","first_name":"Anon","last_name":"Anonymous","bio":"i
+        am doing the disappearing.","email":"raidahkhan@muslim.com","created_at":"2014-06-29T16:40:08.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDcvMDcvMTYvNTMvMTgvMTkxLzIwMDZBQzkxNjlfdGlsZV9pcmFuX292ZXJsYXkyOTAuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=feb7d81ff2084e46","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":1194462,"user_id":22261,"created_at":"2015-01-02T16:32:01.000Z","updated_at":"2015-01-02T16:32:01.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":1,"user_like_id":null},"text":"That''s
+        a good observation, maybe so. Really though I have a history of domestic violence
+        so I domt want to see posts about that. But I never suggested people shouldn''t
+        post about it, rather I should have the choice whatever or not to see it.
+        In regards to the point on delusions, I have odd concerning my own mental
+        health, so I constantly check if I am mentally unwell. Seeing posts like this
+        can trigger an episode of this. So really I was trying to suggest a way as
+        I said before, of not having to see things that made me feel bad. Not persecuting
+        or bullying people as I have been accused of. Thanks for the post xxx ","post_id":392472,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":22261,"nickname":"lillyflower","first_name":"Anon","last_name":"Anonymous","bio":"Female
+        business owner. Survivor of domestic violence. I have agoraphobia. I don''t
+        believe in medication because I believe in behaviourism explanations of mental
+        health. I pay for private therapy sessions with a clinical psychologist. \r\nAnxiety
+        has been a testing thing to deal with, but it has also made me kinder, more
+        compassionate and appreciate my partner so much more. Every cloud..","email":"sjpickles.sp@googlemail.com","created_at":"2014-12-11T14:19:06.000Z","profile_image":null,"twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":369963,"text":"Some
+        people make me laugh. It makes me feel ashamed to be a human sometimes. I
+        hate bullying with a vengeance. There was a girl at college today who went
+        to the girls loo and left a present behind without flushing it. She saw my
+        expression and just laughed. Eww. Later on I saw her sat with her friends,
+        bullying a girl who was on another table on her own. Saying ''she looks like
+        a troll'', ''She''s a B- (lady dog)'' and ''She dresses like a tramp''. They
+        were throwing stuff at her... I lost my temper and had a go at her. We ended
+        up having a bit of a verbal tennis game with one another and I ended up saying
+        \" and next time you have a (----) flush the F toilet you dirty (moo)\". She
+        started crying and told one of the tutors. I explained what they had been
+        doing, but they got away with it and I got my exam cancelled. WTH!?!?!","created_at":"2014-12-04T20:43:26.000Z","updated_at":"2014-12-04T20:45:51.000Z","user_id":15184,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":1,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":2,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":true,"removed_by_name":"Cherrelle
+        Gayle","moderated":true,"moderated_by_name":"Cherrelle Gayle","interactions_count":3,"feedback":false,"user":{"id":15184,"nickname":"Number13","first_name":"Anon","last_name":"Anonymous","bio":"I
+        don''t know what to put for my profile information to be honest. What can
+        I say? erm... I am quite shy. I''ve been told I don''t really talk a fat lot
+        and that I''m quiet. I don''t really like drawing attention to myself or talking
+        about myself either (on a personal level). But I like to help and support
+        others if I can - it makes me happy. I found elefriends.co.uk when I was feeling
+        really down one day and was looking up help for depression (that did not include
+        going to a doctor/meds) - since then I have found people here lovely and very
+        supportive, not only to me but to others as well. Elefriends gives me the
+        ability to ''talk'' about things that bother me without sarcasm or negative
+        biased comments/opinions. I love this site! :0)","email":"phantomsopera@msn.com","created_at":"2014-07-19T15:48:35.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDcvMTkvMTYvMDAvMzYvNTc5L25ld21hc2sucG5nIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=310728e87e7f7caf","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":1134580,"user_id":7296,"created_at":"2014-12-04T20:49:56.000Z","updated_at":"2014-12-04T20:49:56.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"so
+        it''s ok for her to upset people but as soon as she''s upset ''waaaaaaaaah''
+        she runs to a tutor and you get your exam cancelled? NO justice. Perhaps you
+        could speak with the girl she was bullying and they could back you up on this?
+        just and idea, perhaps you need to take it higher than your tutor, bullying
+        is not acceptable and you shouldn''t get punished for taking a stand. ","post_id":369963,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":7296,"nickname":"Kitsune","first_name":"Anon","last_name":"Anonymous","bio":"
+        I suffer from mixed anxiety and depression and have traits of personality
+        disorders. Am currently working to individuate and build a life worth living.
+        I''m looking forward to making new friends.","email":"c.tonkinson@yahoo.co.uk","created_at":"2013-10-31T01:38:12.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMjAvMjAvNTMvOTY0L2ltYWdlc184LmpwZWciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=20dabf246f10737a","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2948531,"user_id":18433,"created_at":"2014-12-04T20:48:26.000Z","updated_at":"2014-12-04T20:48:26.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":18433,"nickname":"Ivor","first_name":"Anon","last_name":"Anonymous","bio":"Changed
+        profile name as another small step in process of starting to get better. One
+        step back. Although still trying to stay positive.\r\nNew year coming up and
+        will try and stay hopeful.","email":"stevemurcott@hotmail.com","created_at":"2014-10-17T21:39:28.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTAvMTgvMTAvNDgvMjEvNzAwL2l2b3JfdGhlX2VuZ2luZV8xLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=325e9308fe5c6c0a","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2948511,"user_id":19991,"created_at":"2014-12-04T20:46:11.000Z","updated_at":"2014-12-04T20:46:11.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":19991,"nickname":"chellemx","first_name":"Michelle","last_name":"Middleton","bio":"I''m
+        Michelle 25 years old! I have Cerebral Palsy so my dream is to set up m own
+        business one day helping others with this disability and too raise àwareness
+        so that the world becomes more accepting of disability! I have suffered from
+        depression and anxiety since I was about 15 like a lot of people I have ups
+        and downs but seem to have many more downs! ","email":"miss_middleton@hotmail.com","created_at":"2014-11-23T21:20:14.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDEvMjIvMjIvNTIvNDYvNTk4L0lNR18yOTc5LkpQRyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=98f2655b7d5709b6","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":369208,"text":"Within
+        the last 3 days i have self harmed and self poisoned.\r\n(didn''t want to
+        go to a\u0026e)\r\nAm i going to make it to Christmas?\r\nDoes it even matter...","created_at":"2014-12-03T18:41:49.000Z","updated_at":"2014-12-03T20:07:34.000Z","user_id":9512,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":2,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":11,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":true,"moderated_by_name":"Cherrelle
+        Gayle","interactions_count":13,"feedback":false,"user":{"id":9512,"nickname":"fieryghost","first_name":"Anon","last_name":"Anonymous","bio":"Aimee.
+        19.\r\nI suppose there is not much to say about me. I have anxiety, depression
+        and Emotionally Unstable Personality Disorder. I see things others can''t.  I''m
+        suicidal. \r\nNo one take me seriously \"/","email":"aimee.ackland@hotmail.co.uk","created_at":"2014-01-13T21:53:44.000Z","profile_image":null,"twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":1132514,"user_id":18453,"created_at":"2014-12-03T19:52:11.000Z","updated_at":"2014-12-03T19:52:11.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"it
+        will matter.....you take care x","post_id":369208,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":18453,"nickname":"lainy","first_name":"Anon","last_name":"Anonymous","bio":null,"email":"iamelained@yahoo.co.uk","created_at":"2014-10-18T16:39:29.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTAvMTgvMTYvNDIvMjQvMjQ3L3BpY3R1cmUiXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=02358b2eb68a7b44","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":1132509,"user_id":20265,"created_at":"2014-12-03T19:50:15.000Z","updated_at":"2014-12-03T19:50:15.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Hope
+        you fèel you can phone someone for help.","post_id":369208,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":20265,"nickname":"Èlizabeth1","first_name":"Anon","last_name":"Anonymous","bio":"I
+        am retired and have suffered from anxiey and depression for a long time. Soon
+        I will get help from the Cmht and I really hope they can help. ","email":"ejwelsh1952@gmail.com","created_at":"2014-11-30T14:07:00.000Z","profile_image":null,"twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2940579,"user_id":15023,"created_at":"2014-12-03T18:51:27.000Z","updated_at":"2014-12-03T18:51:27.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":15023,"nickname":"Pickle1234","first_name":"Anon","last_name":"Anonymous","bio":"Been
+        living with anxiety since I was 13 and depression comes and go. Been through
+        several traumatic events within the last two years which I still struggle
+        with today- Looking for somewhere safe and supportive for those days I cant
+        support myself \u003c3 \u003c3","email":"tamlaphillips@hotmail.com","created_at":"2014-07-14T11:50:19.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTIvMDMvMTMvNDAvMTIvMTYzL3Jvc2VzMS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=bd140f28f0c2f07a","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2940566,"user_id":17626,"created_at":"2014-12-03T18:49:38.000Z","updated_at":"2014-12-03T18:49:38.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":17626,"nickname":"Madcrazyfool","first_name":"Anon","last_name":"Anonymous","bio":"To
+        find out about me, please go to my website - http://www.annasalinas.com/","email":"anna.salinas@outlook.com","created_at":"2014-09-26T19:54:49.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTEvMDEvMTgvMDQvMTAvMjM3L2NvZmZlZS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=ca59e18cf4016313","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":319856,"text":"Wish
+        the pain would stop","created_at":"2014-09-21T16:37:35.000Z","updated_at":"2014-09-21T16:37:35.000Z","user_id":3555,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":1,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":2,"user_like_id":null},"thinkings":{"count":10,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":true,"moderated_by_name":"Dan
+        Weir","interactions_count":13,"feedback":false,"user":{"id":3555,"nickname":"Fish","first_name":"Amy","last_name":"Jennings","bio":"I
+        am a student living a hectic life trying to cope with the minute by minute
+        battles of borderline personality disorder. If you want to follow my progress
+        this is my blog: http://littlescaredfishinbigsea.blogspot.co.uk/","email":"amyrjennings@googlemail.com","created_at":"2013-05-09T21:35:05.000Z","profile_image":"/media/W1siZiIsIjIwMTMvMDUvMjAvMjBfMDNfNDJfNjBfaGVmZmFsdW1wLmdpZiJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=2396799f90f15cc8","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":1002210,"user_id":14198,"created_at":"2014-09-21T17:12:05.000Z","updated_at":"2014-09-21T17:12:05.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"sorry
+        ur in so much painxx","post_id":319856,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":14198,"nickname":"cottonwool","first_name":"Anon","last_name":"Anonymous","bio":"just
+        a girl who wants to feel different and whos been upset for way too long and
+        doesnt know how to make things better........ twin soul connection which some
+        dont understand felt unloved since was a little girl and never fully believe
+        people like me.. any hint that someone is being strange with me and i get
+        easily upset.. im very sensitive and just want to be happy.... also have abandonment
+        issues.. also wanted to write here that I don''t feel people ever like me
+        enough or are going to like me so I sometimes get very upset if anyone acts
+        wierd with me or I think they are being off with me. I think part of me just
+        feels like people are going to not be very nice to me or treat me like im
+        annoying and i''m not sure where that feeling comes from. I also feel like
+        I''m way too sensitive and can get easily upset about things aswell. I can
+        get insecure sometimes about friendships but when I say I care about someone
+        i mean it. I also like animals, I love cats and talk to them sometimes.\r\n\r\nhave
+        a few interests including yoga, japanese anime, and listening to music, sometimes
+        listen to radio 4, knitting and writing poetry.\r\n\r\ncry more than i used
+        to and never used to cry that much dont really know whats happened to me..","email":"peaches17@hotmail.co.uk","created_at":"2014-06-11T12:23:36.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDMvMDEvMTYvMDEvMzUvNDA3L21lcm1haWRiLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=e76dfd24894b36f3","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2499562,"user_id":17344,"created_at":"2014-09-21T16:42:42.000Z","updated_at":"2014-09-21T16:42:42.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":17344,"nickname":"Big
+        Black Dog","first_name":"Anon","last_name":"Anonymous","bio":"Hi I''m Big
+        Black Dog. I\"m 48, happily married with two teenage sons. I am a health care
+        professional and worked in the NHS for 25 years. Unfortunately it all became
+        too much and triggered a really bad episode of depression which has lasted
+        for two years and I have had to stop working because of it. Looking back I
+        can see that I have had anxiety and depression on and off since my teens.When
+        I''m well I like walking my dogs (one is big and black, the other small and
+        orange), reading, being with my family. Oh yes, I also have three cats. Luckily
+        all the animals get on together.! BBD","email":"thea.chittenden@tiscali.co.uk","created_at":"2014-09-17T13:00:59.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDkvMTcvMTMvNTgvMzYvMjQwLzIwMTQwMzA3XzA4NDUwOS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=beac3d269d0997e5","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2499557,"user_id":10471,"created_at":"2014-09-21T16:42:00.000Z","updated_at":"2014-09-21T16:42:00.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":10471,"nickname":"ruby123","first_name":"Anon","last_name":"Anonymous","bio":"","email":"dataprotect123@outlook.com","created_at":"2014-02-10T13:53:56.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDQvMTQvMTYvNTIvMDkvNjIzL3RuZ18yODY5NDY0MzIuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=5e776a0e347ed021","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2499529,"user_id":17387,"created_at":"2014-09-21T16:38:29.000Z","updated_at":"2014-09-21T16:38:29.000Z","type":"hear","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":17387,"nickname":"Doris033","first_name":"Anon","last_name":"Anonymous","bio":"18
+        year old studying for A-levels, have suffered from depression, anxiety and
+        self harm since I was 13 but still fighting though it all","email":"doris033@hotmail.co.uk","created_at":"2014-09-18T11:22:22.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDkvMTgvMTIvNTgvNDcvMTMyL2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=ef14c7d367623c61","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":313621,"text":"**TRIGGER
+        WARNING**\r\n\r\nIt''s FFFFFFFF hard not to s/h, knowing you''re not worthy
+        of true love or a relationship ","created_at":"2014-09-11T19:28:46.000Z","updated_at":"2014-09-11T19:57:04.000Z","user_id":12109,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":3,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":6,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":true,"removed_by_name":"Cherrelle
+        Gayle","moderated":true,"moderated_by_name":"Cherrelle Gayle","interactions_count":10,"feedback":false,"user":{"id":12109,"nickname":"Steph
+        Louise","first_name":"Anon","last_name":"Anonymous","bio":"29 yr old BPD sufferer
+        with possible bipolar traits. at end of latest breakdown which involved being
+        on a 136 and then multiple A and E admissions and a failed attempt. no follow
+        up whatsoever was offered. returning to work as support worker soon. I recently
+        quit weekend drinking but fear relapse I receive no support whatsoever with
+        this. had plenty of abysmal (telephone only) contact from dreadful, abusive
+        crisis teams. The last and only time they ever visited was ONCE in August
+        2014. was all set to do a course of MBT group therapy but my recovery has
+        been pushed violently backwards by the abuse and rejection of this team. Now
+        I don''t know if I''m strong enough to go ahead with it at this time and I''m
+        frightened of the way I''ve been treated. I''ve tried meds but they never
+        seem to suit me so I guess I''m a classic example of why they don''t work/
+        aren''t suitable for all BPD''s. I''m hoping to start a university course
+        in mental health nursing in September. My views of the mental health system
+        have been poisoned and it will take me a lot of therapy to get over this when
+        I am even feeling strong enough to go.","email":"steph2082uk@hotmail.com","created_at":"2014-04-01T22:05:37.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDEvMjkvMTUvMjYvNTgvNzMwL2JhbGxlcmluYS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=98132c2e0ca43be6","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":984775,"user_id":17149,"created_at":"2014-09-11T19:59:32.000Z","updated_at":"2014-09-11T19:59:32.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"I''ve
+        been hurt so badly, by 3 bf''s in the last 10 years that I often wonder if
+        I''ll ever let anyone else in. I pick faults in everyone I meet now and I
+        walk away. But I sincerely believe that there is someone for everyone - maybe
+        that''s because I don''t want to consider the crazy cat woman alternative!!!
+        Lol xx","post_id":313621,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":17149,"nickname":"MissB85","first_name":"Anon","last_name":"Anonymous","bio":"I''m
+        a Bi Polar Bear ;-) 29. Mother of one. Currently trying life without medication.
+        ","email":"jess.85@hotmail.co.uk","created_at":"2014-09-11T09:20:07.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTIvMTUvMjMvMzkvMTgvOTQ1LzIwMTQwNDMwXzE3MzAxNy5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=320a42fb840461ac","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":984737,"user_id":12109,"created_at":"2014-09-11T19:43:23.000Z","updated_at":"2014-09-11T19:43:23.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"I
+        wish people would stop proving me wrong ;( whenever I get to a good place
+        I am always proved wrong ;( it''s people who make me think like this xx","post_id":313621,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":12109,"nickname":"Steph
+        Louise","first_name":"Anon","last_name":"Anonymous","bio":"29 yr old BPD sufferer
+        with possible bipolar traits. at end of latest breakdown which involved being
+        on a 136 and then multiple A and E admissions and a failed attempt. no follow
+        up whatsoever was offered. returning to work as support worker soon. I recently
+        quit weekend drinking but fear relapse I receive no support whatsoever with
+        this. had plenty of abysmal (telephone only) contact from dreadful, abusive
+        crisis teams. The last and only time they ever visited was ONCE in August
+        2014. was all set to do a course of MBT group therapy but my recovery has
+        been pushed violently backwards by the abuse and rejection of this team. Now
+        I don''t know if I''m strong enough to go ahead with it at this time and I''m
+        frightened of the way I''ve been treated. I''ve tried meds but they never
+        seem to suit me so I guess I''m a classic example of why they don''t work/
+        aren''t suitable for all BPD''s. I''m hoping to start a university course
+        in mental health nursing in September. My views of the mental health system
+        have been poisoned and it will take me a lot of therapy to get over this when
+        I am even feeling strong enough to go.","email":"steph2082uk@hotmail.com","created_at":"2014-04-01T22:05:37.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDEvMjkvMTUvMjYvNTgvNzMwL2JhbGxlcmluYS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=98132c2e0ca43be6","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":984733,"user_id":17149,"created_at":"2014-09-11T19:41:41.000Z","updated_at":"2014-09-11T19:41:41.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":1,"user_like_id":null},"text":"Everyone
+        is worthy, including you. Our minds have a funny way of making us think differently
+        at times though don''t they! xx","post_id":313621,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":17149,"nickname":"MissB85","first_name":"Anon","last_name":"Anonymous","bio":"I''m
+        a Bi Polar Bear ;-) 29. Mother of one. Currently trying life without medication.
+        ","email":"jess.85@hotmail.co.uk","created_at":"2014-09-11T09:20:07.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTIvMTUvMjMvMzkvMTgvOTQ1LzIwMTQwNDMwXzE3MzAxNy5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=320a42fb840461ac","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2447941,"user_id":6098,"created_at":"2014-09-11T19:37:25.000Z","updated_at":"2014-09-11T19:37:25.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":6098,"nickname":"poppyprincess","first_name":"Anon","last_name":"Anonymous","bio":"","email":"outandproudpoppy@outlook.com","created_at":"2013-08-05T19:07:30.000Z","profile_image":"/media/W1siZiIsIjIwMTMvMDgvMDUvMTkvMzgvMzYvNDc0L0tJTkRMRV9DQU1FUkFfMTM3NTM4OTM4MjAwMC5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=30bb73e53b183412","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":297282,"text":"I''ve
+        got to attempt a whole year at uni when I can''t even get through a f***ing
+        film. I''m not holding my hopes up with that one.","created_at":"2014-08-20T17:53:25.000Z","updated_at":"2014-08-20T18:13:07.000Z","user_id":13408,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":5,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":true,"removed_by_name":"Cherrelle
+        Gayle","moderated":true,"moderated_by_name":"Cherrelle Gayle","interactions_count":6,"feedback":false,"user":{"id":13408,"nickname":"RainbowOfChaos(LittleRachy)","first_name":"Anon","last_name":"Anonymous","bio":"Hey
+        I am Rachael and I am 23. I suffer with OCD which I have had for a good few
+        years and depression. I feel quite alone as next to nobody I know truly understands
+        what it is like for me.","email":"rachit018@hotmail.co.uk","created_at":"2014-05-13T19:22:43.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjQvMjAvMzgvMjcvMzYxL0VsbWVyLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=f0b0863e0ed494d1","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":2328158,"user_id":12109,"created_at":"2014-08-20T18:12:47.000Z","updated_at":"2014-08-20T18:12:47.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":12109,"nickname":"Steph
+        Louise","first_name":"Anon","last_name":"Anonymous","bio":"29 yr old BPD sufferer
+        with possible bipolar traits. at end of latest breakdown which involved being
+        on a 136 and then multiple A and E admissions and a failed attempt. no follow
+        up whatsoever was offered. returning to work as support worker soon. I recently
+        quit weekend drinking but fear relapse I receive no support whatsoever with
+        this. had plenty of abysmal (telephone only) contact from dreadful, abusive
+        crisis teams. The last and only time they ever visited was ONCE in August
+        2014. was all set to do a course of MBT group therapy but my recovery has
+        been pushed violently backwards by the abuse and rejection of this team. Now
+        I don''t know if I''m strong enough to go ahead with it at this time and I''m
+        frightened of the way I''ve been treated. I''ve tried meds but they never
+        seem to suit me so I guess I''m a classic example of why they don''t work/
+        aren''t suitable for all BPD''s. I''m hoping to start a university course
+        in mental health nursing in September. My views of the mental health system
+        have been poisoned and it will take me a lot of therapy to get over this when
+        I am even feeling strong enough to go.","email":"steph2082uk@hotmail.com","created_at":"2014-04-01T22:05:37.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDEvMjkvMTUvMjYvNTgvNzMwL2JhbGxlcmluYS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=98132c2e0ca43be6","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2328152,"user_id":15254,"created_at":"2014-08-20T18:11:53.000Z","updated_at":"2014-08-20T18:11:53.000Z","type":"hear","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":15254,"nickname":"Abe","first_name":"Anon","last_name":"Anonymous","bio":"Life,
+        oh life ooooooh life, oh life.\r\n\r\nI like to think that life does get better.","email":"markbanham@inbox.com","created_at":"2014-07-21T17:54:17.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDgvMDgvMDgvNDUvNTUvNjgyL2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=475ed8943ceddda4","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2328115,"user_id":6417,"created_at":"2014-08-20T18:04:45.000Z","updated_at":"2014-08-20T18:04:45.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":6417,"nickname":"Spring
+        Blues ","first_name":"Anon","last_name":"Anonymous","bio":"Borderline personality
+        disorder * Depression * Anxiety  ","email":"chantalhamer@hotmail.com","created_at":"2013-08-29T08:50:14.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDEvMDIvMjEvMzgvMzQvMzE2L2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=26a77ad1f3df3c3c","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2328094,"user_id":14145,"created_at":"2014-08-20T18:00:04.000Z","updated_at":"2014-08-20T18:00:04.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":14145,"nickname":"justpaul","first_name":"Anon","last_name":"Anonymous","bio":"Took
+        me a while to change this but......... Been sh since aged 10 , heavily and
+        od many times , lucky to be alive , parents used to beat me mentally bully
+        , I am an extreme kind of person if u no wot I mean , either very happy and
+        over confident or brutally depressed n hidin away , been like this for long
+        time 41 now , 3 boys n married , everything I''d perfect for me , except my
+        head , came on here to share xpierences an try to piece stuff togeva so hopefully
+        I van one day live in peace , god bless u all x x x ","email":"paulandal@blueyonder.co.uk","created_at":"2014-06-09T20:18:51.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDYvMTAvMTgvMDAvNDIvNDQvSU1BRzAwNzMuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=cdbe77fba4e9b61a","twitter_screen_name":null,"deleted":true,"suspended":false}}]},{"id":284352,"text":"Hi
+        \r\nI am sure you realise this is a democratic site and everyone\r\nwrites
+        from their own viewpoint and experience and most if not\r\nall comes from
+        painful consequences \r\nI don''t believe anybody sets out to offend by posting
+        their opinion\r\nor the results of some unpleasant experience in their past
+        - mostly\r\nchildhood - \r\nHumiliation isn''t pleasant - I am not afraid
+        of disclosing past experience\r\nand how it has now made me the person I am
+        and my feelings about what is \r\ngoing on in society right now \r\nI''d really
+        appreciate not being  stamped on for my honesty\r\nTake care and hope you''re
+        enjoying your new job \r\nI''m hoping  that others will be as tolerant as
+        I try to be no matter what x\r\n\r\n ","created_at":"2014-08-03T11:40:26.000Z","updated_at":"2014-08-03T20:08:54.000Z","user_id":8846,"target_id":6503,"target_type":"User","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":4,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":true,"removed_by_name":"Cherrelle
+        Gayle","moderated":true,"moderated_by_name":"Cherrelle Gayle","interactions_count":5,"feedback":false,"user":{"id":8846,"nickname":"evie190","first_name":"Anon","last_name":"Anonymous","bio":"Soon
+        after my first birthday my parents went abroad  leaving me behind -  two years
+        later summoned to re-join a couple of strangers called ''mummy and daddy''
+        \r\nI remember being handed over to air stewards  and carried  through to
+        the captain''s cabin where they fed me milk and doughnuts -  The ''plane stopped
+        over somewhere to refuel and I recall being carried down the gangway through
+        a seething mass of black shiny faces and gleaming  white teeth - Past  animals
+        hunched in cages piled on top of one another and a man with a monkey on his
+        shoulder nibbling a banana. Thousands of miles from where I last remembered
+        feeling loved and safe -  ''home'' is now a dark miserable flat on the second
+        floor - barking dogs,  people arguing and my father fighting with the neighbour
+        upstairs.\r\nMy near fatal accident followed by the death of both my  father
+        and grandfather.\r\nWith years of surgery ahead I find myself  gradually edged  out
+        of my mother''s  house and then her life - Foster care an offer to adopt me
+        refused - The final boarding ''school'' run by a couple of violent closet
+        gays - one a ''quack''-  Between hospital and boarding establishments   the
+        odd brief holidays with my mother sees me end up in cinemas or railway station
+        bars looking to be saved.  Finally allowed back to my grandmother my cousins
+        help to drive me out. \r\nSurrounded by all the wrong people and no safe place
+        lands me in an abusive marriage. The foolhardy second pregnancy not wanting
+        my first to be a lonely only child like me - never taught to protect myself  -
+        Another pregnancy 3 months later means sterilisation/abortion at only 24 -
+        followed by the spouse''s first known infidelity pushes me to near suicide.   Sent
+        to the local ''quack'' attempts to talk about the abuse of one of his own
+        profession soon finds me sentenced to the chemical cosh - Cocktails of diazepam
+        very soon shuts me down allowing my abusers to escape and hundreds more to
+        suffer  -Once a promising violinist having got my grade V and decent singer
+        and accepted into Art College on the strength of my work - life becomes long
+        dark tunnel and rather like walking into a labyrinth and forgetting my way
+        out - my once world of colour and music my best love are all forgotten and
+        blanked out.   15yrs later the slow miserable death of my grandmother and
+        her criminally prescribed drugs -her geriatrician''s comments about needing
+        to sort out her drugs finally alerts me to my own drug addiction.\r\nShocked
+        at reading the side effect warnings in drug data compendium - which includes
+        ''possible brain damage with long term use'' - addiction - amnesia - confusion
+        and accidents '' pushes me to go ''cold turkey''  and thinking I''d now cracked
+        it - that I could just walk out of my  marriage, and start a new  life - didn''t
+        quite work out how I''d p lanned  - Sadly this was just the beginning of my
+        troubles and not the end of them - The ''simmering pressure cooker'' effect
+        that a Vietnam Veteran warned against medicating trauma  -  had now got to
+        be dealt with.   My whole life collapsed and my body along with it.  The husband
+        that looked one way on the drugs -suddenly looked and sounded totally different
+        within barely a month of going ''cold turkey'' \r\nI couldn''t stand his face
+        another minute - the past and previous infidelities were beginning to trickle
+        back - my body was becoming all electric - the numbness I had suffered for
+        all those years and zombie-like state felt like surges of electricity and
+        a  Christmas tree with its lights being switched on-  Forced to leave the  marital
+        home on Sickness and Housing Benefit in severe withdrawal only eight weeks
+        from major abdominal surgery for ovarian cyst  - 5 moves in 6 months pushed
+        around by landlords for being unemployed - water cut off after handing over
+        the month''s rent -  barely able to sleep - a car accident and whiplash -
+        \r\nDwindling savings force me back  home -\r\n the spouse  threatening to
+        sell the roof over my head -  attempted strangulation at the hands of the
+        outgoing spouse - an unusual leaving present I have to admit!\r\nSo ignorant
+        and unaware of my  basic human rights I didn''t know that the spouse hadn''t
+        the right to assault me!\r\n\r\n","email":"jes190@btinternet.com","created_at":"2013-12-25T01:15:48.000Z","profile_image":"/media/W1siZiIsIjIwMTMvMTIvMjUvMDEvMjQvNDMvNDYvSU1HUDAyMzIuSlBHIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=c39ee8cc144aec04","twitter_screen_name":null,"deleted":false,"suspended":true},"recent_interactions":[{"id":908281,"user_id":8846,"created_at":"2014-08-03T19:31:59.000Z","updated_at":"2014-08-03T19:31:59.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Surely
+        the most  sensible solution in the first place? Rather than issuing edicts
+        - we''re all  supposed to be adults here - aren''t we?   ","post_id":284352,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":8846,"nickname":"evie190","first_name":"Anon","last_name":"Anonymous","bio":"Soon
+        after my first birthday my parents went abroad  leaving me behind -  two years
+        later summoned to re-join a couple of strangers called ''mummy and daddy''
+        \r\nI remember being handed over to air stewards  and carried  through to
+        the captain''s cabin where they fed me milk and doughnuts -  The ''plane stopped
+        over somewhere to refuel and I recall being carried down the gangway through
+        a seething mass of black shiny faces and gleaming  white teeth - Past  animals
+        hunched in cages piled on top of one another and a man with a monkey on his
+        shoulder nibbling a banana. Thousands of miles from where I last remembered
+        feeling loved and safe -  ''home'' is now a dark miserable flat on the second
+        floor - barking dogs,  people arguing and my father fighting with the neighbour
+        upstairs.\r\nMy near fatal accident followed by the death of both my  father
+        and grandfather.\r\nWith years of surgery ahead I find myself  gradually edged  out
+        of my mother''s  house and then her life - Foster care an offer to adopt me
+        refused - The final boarding ''school'' run by a couple of violent closet
+        gays - one a ''quack''-  Between hospital and boarding establishments   the
+        odd brief holidays with my mother sees me end up in cinemas or railway station
+        bars looking to be saved.  Finally allowed back to my grandmother my cousins
+        help to drive me out. \r\nSurrounded by all the wrong people and no safe place
+        lands me in an abusive marriage. The foolhardy second pregnancy not wanting
+        my first to be a lonely only child like me - never taught to protect myself  -
+        Another pregnancy 3 months later means sterilisation/abortion at only 24 -
+        followed by the spouse''s first known infidelity pushes me to near suicide.   Sent
+        to the local ''quack'' attempts to talk about the abuse of one of his own
+        profession soon finds me sentenced to the chemical cosh - Cocktails of diazepam
+        very soon shuts me down allowing my abusers to escape and hundreds more to
+        suffer  -Once a promising violinist having got my grade V and decent singer
+        and accepted into Art College on the strength of my work - life becomes long
+        dark tunnel and rather like walking into a labyrinth and forgetting my way
+        out - my once world of colour and music my best love are all forgotten and
+        blanked out.   15yrs later the slow miserable death of my grandmother and
+        her criminally prescribed drugs -her geriatrician''s comments about needing
+        to sort out her drugs finally alerts me to my own drug addiction.\r\nShocked
+        at reading the side effect warnings in drug data compendium - which includes
+        ''possible brain damage with long term use'' - addiction - amnesia - confusion
+        and accidents '' pushes me to go ''cold turkey''  and thinking I''d now cracked
+        it - that I could just walk out of my  marriage, and start a new  life - didn''t
+        quite work out how I''d p lanned  - Sadly this was just the beginning of my
+        troubles and not the end of them - The ''simmering pressure cooker'' effect
+        that a Vietnam Veteran warned against medicating trauma  -  had now got to
+        be dealt with.   My whole life collapsed and my body along with it.  The husband
+        that looked one way on the drugs -suddenly looked and sounded totally different
+        within barely a month of going ''cold turkey'' \r\nI couldn''t stand his face
+        another minute - the past and previous infidelities were beginning to trickle
+        back - my body was becoming all electric - the numbness I had suffered for
+        all those years and zombie-like state felt like surges of electricity and
+        a  Christmas tree with its lights being switched on-  Forced to leave the  marital
+        home on Sickness and Housing Benefit in severe withdrawal only eight weeks
+        from major abdominal surgery for ovarian cyst  - 5 moves in 6 months pushed
+        around by landlords for being unemployed - water cut off after handing over
+        the month''s rent -  barely able to sleep - a car accident and whiplash -
+        \r\nDwindling savings force me back  home -\r\n the spouse  threatening to
+        sell the roof over my head -  attempted strangulation at the hands of the
+        outgoing spouse - an unusual leaving present I have to admit!\r\nSo ignorant
+        and unaware of my  basic human rights I didn''t know that the spouse hadn''t
+        the right to assault me!\r\n\r\n","email":"jes190@btinternet.com","created_at":"2013-12-25T01:15:48.000Z","profile_image":"/media/W1siZiIsIjIwMTMvMTIvMjUvMDEvMjQvNDMvNDYvSU1HUDAyMzIuSlBHIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=c39ee8cc144aec04","twitter_screen_name":null,"deleted":false,"suspended":true}},{"id":908267,"user_id":6503,"created_at":"2014-08-03T18:56:14.000Z","updated_at":"2014-08-03T18:56:14.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Evie,
+        I will just avoid your posts in future. ","post_id":284352,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":6503,"nickname":"Puffin
+        (Puff)","first_name":"Anon","last_name":"Anonymous","bio":"","email":"markyneville@btinternet.com","created_at":"2013-09-06T19:37:35.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTIvMDQvMTEvNDEvMTUvNDQyL2ltYWdlc181Xy5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=8fa6395dfb0dd161","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":908246,"user_id":8846,"created_at":"2014-08-03T18:42:57.000Z","updated_at":"2014-08-03T18:42:57.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Carolyn
+        I''d prefer  not fall out with you, Please could you not send messages  that
+        sound like an order - It  wouldn''t make sense to drop a ''strong opinion''
+        into someone''s PM - for one thing many are disengaged-  Strong opinions are
+        worth sharing  with the majority from where I''ve  received  positive feedback
+        over a number of subjects - Weak opinions never got us where we are today,  Suffragettes
+        didn''t risk their lives force fed in prison - Unions didn''t gain workers
+        rights and conditions without strong opinion- and we''d not have our  Human
+        Rights Bill or the Childrens Act. Freedom of speech is what we went through
+        2 World Wars for!!","post_id":284352,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":8846,"nickname":"evie190","first_name":"Anon","last_name":"Anonymous","bio":"Soon
+        after my first birthday my parents went abroad  leaving me behind -  two years
+        later summoned to re-join a couple of strangers called ''mummy and daddy''
+        \r\nI remember being handed over to air stewards  and carried  through to
+        the captain''s cabin where they fed me milk and doughnuts -  The ''plane stopped
+        over somewhere to refuel and I recall being carried down the gangway through
+        a seething mass of black shiny faces and gleaming  white teeth - Past  animals
+        hunched in cages piled on top of one another and a man with a monkey on his
+        shoulder nibbling a banana. Thousands of miles from where I last remembered
+        feeling loved and safe -  ''home'' is now a dark miserable flat on the second
+        floor - barking dogs,  people arguing and my father fighting with the neighbour
+        upstairs.\r\nMy near fatal accident followed by the death of both my  father
+        and grandfather.\r\nWith years of surgery ahead I find myself  gradually edged  out
+        of my mother''s  house and then her life - Foster care an offer to adopt me
+        refused - The final boarding ''school'' run by a couple of violent closet
+        gays - one a ''quack''-  Between hospital and boarding establishments   the
+        odd brief holidays with my mother sees me end up in cinemas or railway station
+        bars looking to be saved.  Finally allowed back to my grandmother my cousins
+        help to drive me out. \r\nSurrounded by all the wrong people and no safe place
+        lands me in an abusive marriage. The foolhardy second pregnancy not wanting
+        my first to be a lonely only child like me - never taught to protect myself  -
+        Another pregnancy 3 months later means sterilisation/abortion at only 24 -
+        followed by the spouse''s first known infidelity pushes me to near suicide.   Sent
+        to the local ''quack'' attempts to talk about the abuse of one of his own
+        profession soon finds me sentenced to the chemical cosh - Cocktails of diazepam
+        very soon shuts me down allowing my abusers to escape and hundreds more to
+        suffer  -Once a promising violinist having got my grade V and decent singer
+        and accepted into Art College on the strength of my work - life becomes long
+        dark tunnel and rather like walking into a labyrinth and forgetting my way
+        out - my once world of colour and music my best love are all forgotten and
+        blanked out.   15yrs later the slow miserable death of my grandmother and
+        her criminally prescribed drugs -her geriatrician''s comments about needing
+        to sort out her drugs finally alerts me to my own drug addiction.\r\nShocked
+        at reading the side effect warnings in drug data compendium - which includes
+        ''possible brain damage with long term use'' - addiction - amnesia - confusion
+        and accidents '' pushes me to go ''cold turkey''  and thinking I''d now cracked
+        it - that I could just walk out of my  marriage, and start a new  life - didn''t
+        quite work out how I''d p lanned  - Sadly this was just the beginning of my
+        troubles and not the end of them - The ''simmering pressure cooker'' effect
+        that a Vietnam Veteran warned against medicating trauma  -  had now got to
+        be dealt with.   My whole life collapsed and my body along with it.  The husband
+        that looked one way on the drugs -suddenly looked and sounded totally different
+        within barely a month of going ''cold turkey'' \r\nI couldn''t stand his face
+        another minute - the past and previous infidelities were beginning to trickle
+        back - my body was becoming all electric - the numbness I had suffered for
+        all those years and zombie-like state felt like surges of electricity and
+        a  Christmas tree with its lights being switched on-  Forced to leave the  marital
+        home on Sickness and Housing Benefit in severe withdrawal only eight weeks
+        from major abdominal surgery for ovarian cyst  - 5 moves in 6 months pushed
+        around by landlords for being unemployed - water cut off after handing over
+        the month''s rent -  barely able to sleep - a car accident and whiplash -
+        \r\nDwindling savings force me back  home -\r\n the spouse  threatening to
+        sell the roof over my head -  attempted strangulation at the hands of the
+        outgoing spouse - an unusual leaving present I have to admit!\r\nSo ignorant
+        and unaware of my  basic human rights I didn''t know that the spouse hadn''t
+        the right to assault me!\r\n\r\n","email":"jes190@btinternet.com","created_at":"2013-12-25T01:15:48.000Z","profile_image":"/media/W1siZiIsIjIwMTMvMTIvMjUvMDEvMjQvNDMvNDYvSU1HUDAyMzIuSlBHIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=c39ee8cc144aec04","twitter_screen_name":null,"deleted":false,"suspended":true}},{"id":907788,"user_id":6503,"created_at":"2014-08-03T12:45:03.000Z","updated_at":"2014-08-03T12:45:03.000Z","type":"comment","likes":{"count":1,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"I
+        would appreciate it if you would express your strong opinions to individuals
+        via pm so that this issue does not arise again. ","post_id":284352,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":6503,"nickname":"Puffin
+        (Puff)","first_name":"Anon","last_name":"Anonymous","bio":"","email":"markyneville@btinternet.com","created_at":"2013-09-06T19:37:35.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTIvMDQvMTEvNDEvMTUvNDQyL2ltYWdlc181Xy5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=8fa6395dfb0dd161","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":284324,"text":"*Trigger
+        Warning* A guy gave me the best advice ever last night. He said don''t put
+        others through misery. Either comitt suicide this week or not at all. He said
+        to SH on the top part of the arm not the wrists.","created_at":"2014-08-03T10:23:14.000Z","updated_at":"2014-08-03T10:31:21.000Z","user_id":14333,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":1,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":true,"removed_by_name":"","moderated":true,"moderated_by_name":"Cherrelle
+        Gayle","interactions_count":1,"feedback":false,"user":{"id":14333,"nickname":"Paper
+        Tigers","first_name":"Paul","last_name":"Taylor","bio":"住。笑。愛。This is what
+        I try to stick to. Love. Laugh. Live. I came out of an emotionally and physically
+        abusive relationship in May, I''d like a nice girl, not a she demon who doesn''t
+        let me see my sister or friends. Trying to be a better person each and every
+        day, I am caring, just get a little lost sometimes. I have paranoia, in fact
+        it''s so bad I''m probably thinking you are thinking ''what a tool'' right
+        now. Maybe I am a tool, we all need tools. This is what I mean, I waffle,
+        it''s shameful. Talk to me if this rant hasn''t scared you. Truth is Elefriends
+        means you can be ''You'' as long as you don''t trigger or offend others. I
+        care, we care. Let''s talk and get some community spirit going. The real world
+        is largely messed up with the human virus, Elefriends is like a utopia in
+        the cacophony of madness. I play guitar, I love music more than anything else
+        in life. I would love life to have a soundtrack, it would keep me going and
+        keep me strong. I write poetry as that helps too, this is a poem I wrote to
+        help myself and others trying to beat depression, it hopefully can reach out
+        so some, not being pretentious generally trying to help. Black Dog. \r\nSearching
+        for a utopia in the cacophony of madness,\r\nLonging for an answer not just
+        ongoing sadness,\r\nOver-think, Procrastinate, it Resonates within me.\r\nVapid
+        black dog has a hold of me, but I’m not alone and his bite is tenuous,\r\nRavenous
+        paranoia, Insidious to its very core,\r\nShe makes me feel just three inches
+        tall.\r\nUnwelcome thoughts, clip my tattered wings.\r\nIcarus complex, venture
+        close to our ever conspiring sun,\r\nMalevolent star consumes me like those
+        beautiful girls.\r\nWorth more than what you have taken, abusive, controlling.\r\nMisfiring
+        axons, a monophyletic taxon,\r\nImpossible I know, to fall in reverse on the
+        blackest of black ice.\r\nSister serotonin, biomedical products stop me from
+        moaning,\r\nTake the dose and kill the pain,\r\nRemove this jagged glass shattered
+        in my brain.\r\nDebilitated, tired of black dogged caustic corruption dissolving
+        the fun,\r\nSeeking atonement in this dragged out attritional, invisible war.\r\nRefuse
+        to back down or hurt those I love anymore, biting words dissipate, ambition
+        radiates,\r\nNever think too deeply of those which pretend to care, \r\nPoisonous,
+        callous words ran through my veins, others afraid to approach you,\r\nYou’re
+        not a freak and a prejudice stigma can’t deter the complexity of your very
+        being.\r\nNarcissistic black dog, you can be restrained,\r\nNihilistic black
+        dog, I’m still human,\r\nSuch a general term for a vast range of emotion,\r\nLearning
+        how to treat our paradoxical afflictions,\r\nUsted No Va A Ganar.\r\nPeace
+        out \u0026 be real. In real life I''m considered weird as I think too deeply
+        about things but on here I can be what I''ve always truly meant to be, myself.\r\n\r\n\r\n","email":"taylorpaul.8604@yahoo.co.uk","created_at":"2014-06-16T17:02:29.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDgvMjAvMTIvNDIvNDMvMjY3L2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=b504bc92ba08856f","twitter_screen_name":null,"deleted":true,"suspended":true},"recent_interactions":[{"id":2225980,"user_id":13408,"created_at":"2014-08-03T10:31:50.000Z","updated_at":"2014-08-03T10:31:50.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":13408,"nickname":"RainbowOfChaos(LittleRachy)","first_name":"Anon","last_name":"Anonymous","bio":"Hey
+        I am Rachael and I am 23. I suffer with OCD which I have had for a good few
+        years and depression. I feel quite alone as next to nobody I know truly understands
+        what it is like for me.","email":"rachit018@hotmail.co.uk","created_at":"2014-05-13T19:22:43.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjQvMjAvMzgvMjcvMzYxL0VsbWVyLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=f0b0863e0ed494d1","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":284198,"text":"She
+        thought she could trust him but then he dropped the bomb. He made her feel
+        like it was just a sick twisted game to him. She sat wondering will he do
+        it again? He tells her he loves her but does he mean it or is this just so
+        she will forgive him so he can do worse. How can she forgive him, should she
+        forgive him. She loves him but doesn''t want to be hurt. She pulls herself
+        away tries to think, what should she do next. He want to cuddle her but she
+        doesn''t want to touch him because she knows if she does she''ll melt in his
+        arms. She promised herself she wouldn''t let this happen again, she wouldn''t
+        let another person in but he''s gotten through her walls he may not believe
+        it but he has. Her armour is broken, she feels like she needs to run and scream.
+        She shouldn''t let him this close to her she''ll only get hurt again because
+        that''s what everyone does to her, they brake her and leave her. She knows
+        the feeling all to well, the feeling of hopeless emptiness. A shell of her
+        former self. As a kid she was bubbly care free, always the first to introduce
+        herself but know she hides in the shadows scared to get hurt. She looks at
+        the scars on wrist feeling the urge run through her vains but know she can''t
+        do it again, it hurts the people around her and it starts the cycle again.
+        In her head she hears the voice tell her she''s not worth it, know one actually
+        care what she does to herself, its the same voice that haunts her dreams,
+        the same voice that was there when she tried to kill herself. She tries to
+        ignore him but he gets louder, her head starts to throb and hands start to
+        shake but the man she loves is sat next to her and she makes the promise to
+        herself she won''t touch that knife again. She call hear it calling, its been
+        months since she used it. She think of the release  it used to give her, the
+        pleasure it gave her in the moment but she also remembers the pain after she''s
+        done it, the shame she feels when she has to cover her arm so people don''t
+        see it, so that they won''t judge her. She can''t stand the eyes on her the
+        looks people give her. She feels empty again but won''t let herself cry because
+        if she does she admits defeat again and she won''t go back to that. She fought
+        to hard to get where she is today and to be the person she is today so because
+        of that she will forgive him for what he has done to her. She will show him
+        she loves him and does not want to lose him because he has become her world,
+        her rock her man.","created_at":"2014-08-03T01:10:10.000Z","updated_at":"2014-08-03T12:42:28.000Z","user_id":11362,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":1,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":4,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":true,"removed_by_name":"Cherrelle
+        Gayle","moderated":true,"moderated_by_name":"Cherrelle Gayle","interactions_count":5,"feedback":false,"user":{"id":11362,"nickname":"caiti","first_name":"Anon","last_name":"Anonymous","bio":"","email":"caitlin.scales@yahoo.com","created_at":"2014-03-06T22:52:37.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDMvMDkvMTcvNDMvNTAvNC9JTUdfMjE0MDU1NDc0OTI0NDY1LmpwZWciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=50856eaed7f835f3","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":2225150,"user_id":6996,"created_at":"2014-08-03T02:52:33.000Z","updated_at":"2014-08-03T02:52:33.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":6996,"nickname":"Athena","first_name":"Penny","last_name":"Temple","bio":"","email":"penunicorn@yahoo.com","created_at":"2013-10-15T12:50:26.000Z","profile_image":"/media/W1siZiIsIjIwMTMvMTAvMTUvMTIvNTAvMjYvNDMwL3BpY3R1cmUiXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=790af7aefa48b4a6","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":907398,"user_id":4928,"created_at":"2014-08-03T01:34:44.000Z","updated_at":"2014-08-03T01:34:44.000Z","type":"comment","likes":{"count":1,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"But
+        at the same time, she will make sure it never happens to her again ...","post_id":284198,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":4928,"nickname":"Joyce
+        (JJ)","first_name":"Anon","last_name":"Anonymous","bio":"","email":"joycelyndley@talktalk.net","created_at":"2013-06-19T00:49:13.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMDEvMDIvNDMvMjgvMTM2L0RTQ0YwMTI0LkpQRyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=d571e37cb4a7220e","twitter_screen_name":null,"deleted":true,"suspended":false}},{"id":2225090,"user_id":15482,"created_at":"2014-08-03T01:34:23.000Z","updated_at":"2014-08-03T01:34:23.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":15482,"nickname":"katielouise","first_name":"Katie","last_name":"Mortimer","bio":"","email":"katielouisemortimer@outlook.com","created_at":"2014-07-29T21:27:32.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTIvMTUvMDIvMDYvMzMvMzI3LzEwNTIzMjI1XzY3ODE2ODI1NTYwMTU4NF8zNzk2OTcyNjYyMjUzODE3MjQ3X24uanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=9926fcdea7b21058","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2225088,"user_id":12215,"created_at":"2014-08-03T01:30:09.000Z","updated_at":"2014-08-03T01:30:09.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":12215,"nickname":"Notactuallyme","first_name":"Anon","last_name":"Anonymous","bio":"Female,
+        58, depression, severe anxiety, ptsd, lonely.","email":"janetfox56@hotmail.co.uk","created_at":"2014-04-05T12:49:23.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTAvMTkvMDEvMzIvMDMvMTI5L0RTQzAxNDM2LkpQRyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=2b20eb9b5396a93d","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":284151,"text":"not
+        bad, had problems at work this week. New manager who cant do the job so ive
+        been helping her for the past nine weeks and my big boss came and bollocked
+        me for doing it. I was distraught. Never been made to feel like such a waste
+        of time for trying to help before.","created_at":"2014-08-02T23:06:50.000Z","updated_at":"2014-08-03T12:51:37.000Z","user_id":11672,"target_id":4928,"target_type":"User","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":2,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":2,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":true,"removed_by_name":"Cherrelle
+        Gayle","moderated":true,"moderated_by_name":"Cherrelle Gayle","interactions_count":4,"feedback":false,"user":{"id":11672,"nickname":"shavorne","first_name":"Shavorne","last_name":"Wilbraham","bio":"Ok,
+        in a nutshell here''s my life - \r\nGrew up in a nice home with both parents
+        who thought the world of my brother and I always felt like I wasn''t really
+        meant to happen from about the age of 8. Started thinking about suicide at
+        12 but was too scared to do anything. I''ve worked hard in every job but only
+        just being noticed for my efforts.  2 Long term relationships, one a drinker
+        one abusive. Single for the last 3 years. Now feeling more settled than ever
+        since I got rid of people from my life that made me feel bad about myself.
+        I''ve suffered with depression since i don''t know when but I function, and
+        I can act out happiness like a pro. That''s me.  Feel free to drop this skateboarding
+        ele a line x ","email":"shavornewilbraham@yahoo.co.uk","created_at":"2014-03-18T16:48:35.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDMvMTkvMjIvMjEvNTkvNDQzL3RoLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=395b2a238ae0188b","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":2224968,"user_id":11214,"created_at":"2014-08-03T00:01:30.000Z","updated_at":"2014-08-03T00:01:30.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":11214,"nickname":"lucylou","first_name":"Sue","last_name":"Morgan","bio":"Hi
+        iam a 48 year old lady who is gentle and very kind sadly for the past 20 years
+        has been suffering from episodes of depression also post traumatic stress
+        disorder. 21 years ago I witnessed the sudden passing of my dad from a massive
+        heart attack which happened at home. In my state of shock I rang for the dr,
+        paramedics , and my brother how I did this I never know! At the time of his
+        passing I didn''t show much emotion due to being in shock and feeling numb
+        also I felt I had to be strong for mum and my brother. My nan and my mothers
+        sister made very cruel remarks to me you have to think of your mother it''s
+        not all about YOU! I thought to myself hang on it''s about us all we have
+        lost someone we love! Then seconds after my dad passed away my nan made another
+        rude remark life goes on pull yourself together \r\nThen about a year ago
+        Self harm started to invade my life iam looking for help and support to help
+        me cope wnen depression and self harm invades my life any help would be great
+        \r\nI have many hobbies and interest to many to write down I have a wicked
+        sense of humour ","email":"sue_morganuk@hotmail.com","created_at":"2014-03-03T17:08:58.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDMvMDMvMTcvMDgvNTgvOTMzL3BpY3R1cmUiXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=2ba7253310198463","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":907269,"user_id":11672,"created_at":"2014-08-02T23:36:56.000Z","updated_at":"2014-08-02T23:36:56.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":1,"user_like_id":null},"text":"nail
+        on the head my love. Hugs very much needed. x and definitely appreciated.","post_id":284151,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":11672,"nickname":"shavorne","first_name":"Shavorne","last_name":"Wilbraham","bio":"Ok,
+        in a nutshell here''s my life - \r\nGrew up in a nice home with both parents
+        who thought the world of my brother and I always felt like I wasn''t really
+        meant to happen from about the age of 8. Started thinking about suicide at
+        12 but was too scared to do anything. I''ve worked hard in every job but only
+        just being noticed for my efforts.  2 Long term relationships, one a drinker
+        one abusive. Single for the last 3 years. Now feeling more settled than ever
+        since I got rid of people from my life that made me feel bad about myself.
+        I''ve suffered with depression since i don''t know when but I function, and
+        I can act out happiness like a pro. That''s me.  Feel free to drop this skateboarding
+        ele a line x ","email":"shavornewilbraham@yahoo.co.uk","created_at":"2014-03-18T16:48:35.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDMvMTkvMjIvMjEvNTkvNDQzL3RoLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=395b2a238ae0188b","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":907238,"user_id":4928,"created_at":"2014-08-02T23:18:24.000Z","updated_at":"2014-08-02T23:18:24.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Ah,
+        is this a case of your manager having been promoted to the point of incompetency
+        ?   This has been happening since the dawn of time and the assistant offten
+        gets it n the neck.   Sorry you''re having a hard time.   -   hugs X","post_id":284151,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":4928,"nickname":"Joyce
+        (JJ)","first_name":"Anon","last_name":"Anonymous","bio":"","email":"joycelyndley@talktalk.net","created_at":"2013-06-19T00:49:13.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMDEvMDIvNDMvMjgvMTM2L0RTQ0YwMTI0LkpQRyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=d571e37cb4a7220e","twitter_screen_name":null,"deleted":true,"suspended":false}},{"id":2224755,"user_id":14508,"created_at":"2014-08-02T23:12:29.000Z","updated_at":"2014-08-02T23:12:29.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":14508,"nickname":"Rayofhope","first_name":"Anon","last_name":"Anonymous","bio":"I
+        am beaten. I have nothing left to offer. I can''t help myself let alone anyone
+        else.\r\n\r\nSORRY\r\n\r\n","email":"jjhaines7272@gmail.com","created_at":"2014-06-24T10:31:50.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTIvMTQvMTcvMDEvMzcvMzAyL2Rvd25sb2FkLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=4f742b1caffc4ab0","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":272319,"text":"When
+        people know that you have this problem, why do they say and do things that
+        will make it worse? What kind of an asshole human being does that?","created_at":"2014-07-16T12:52:13.000Z","updated_at":"2014-07-16T20:35:12.000Z","user_id":11972,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":4,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":2,"user_like_id":null},"thinkings":{"count":5,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":true,"removed_by_name":"Cherrelle
+        Gayle","moderated":true,"moderated_by_name":"Cherrelle Gayle","interactions_count":11,"feedback":false,"user":{"id":11972,"nickname":"thegoose","first_name":"Anon","last_name":"Anonymous","bio":"28.
+        Dan. Londoner. Not a goose. Bit of anxiety. Bit of depression. Here and there.
+        Designer. Runner. Guitar player. ","email":"danscombe86@gmail.com","created_at":"2014-03-27T23:35:05.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDcvMTUvMjMvMTIvNTcvNzcyL2dvb3NlMy5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=1c1b37afd011e6e3","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":875473,"user_id":10937,"created_at":"2014-07-16T13:23:40.000Z","updated_at":"2014-07-16T13:23:40.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Amen,
+        enough said, human beings are vile xxx","post_id":272319,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":10937,"nickname":"Staying
+        Strong","first_name":"Anon","last_name":"Anonymous","bio":"So here goes....this
+        is it....\r\nAfter a long battle on my own, my struggles were finally tied
+        together and given a name, on 17th February this year 2014 it was revealed
+        that i was battling Emotionally Unstable Personality Disorder alongside Recurring
+        Depressive Disorder. I struggle to accept this alongside the  impulsiveness
+        \u0026 intrusive thoughts. I am a sufferer of many demons and took on Self
+        Harming as a way to cope with my rapid emotions and thoughts which has left
+        permanent scarring and ive had stitches before. I have been a sufferer of
+        severe panic attacks which has ended in me being taken to hospital via ambulance,
+        i suffer with bad anxiety and all the horrible symptoms, i hardly leave my
+        room or the house anymore, i live in supported accomodation and people who
+        live here arent always kind which makes it tough. I was diagnosed at the age
+        of 14 with Joint Hypermobility Syndrome which is painful (which i take Co-Codamol
+        for) to go alongside my mental illnesses. I waited years to seek help, i had
+        first become suicidal and attempted self harm at the age of 11 after bullying
+        which resulted in me being pulled out from school everyday but in the end
+        it stopped when i was 12 until i was 15 and it started again in college, i
+        quit after my 3rd year after being bullied by the staff and students which
+        led to my first suicide attempt at age 18. I have episodes of Dissociation,
+        which i''m told is a coping strategy. I have experienced this since a child,
+        I thought that this happens to everybody and that this was normal, but apparently
+        not. I am currently on many medications including Mirtazapine 45mg, Quetiapine
+        600mg plus an extra 50mg spread throughout the day, Promethazine 50mg, buscopan
+        for IBD and renitidine 300mg as the meds may be damaging my stomach lining
+        causing a lot of painful symptoms, this combination of meds seem to be helping
+        now, previously i have tried Citalopram, Fluoxetine, Venlafaxine 137.5mg (it
+        made me angry and aggressive, i came straight off it) and been on Carbamazepine
+        400mg, Half Inderal LA 80mg (Beta Blockers) plus Diazepam, propranolol 10mg,
+        Omeprazole 20mg also Olanzapine and lorazepam none of these in the past have
+        helped to control my moods, self harming, intrusive thoughts and thoughts
+        of suicide, despite me keep going to the doctors they don''t care. I have
+        over dosed 10 times since April 18th ''13 aged 18 until now aged 20, i have
+        been in 72 hr voluntary hospitalisation on a psychiatric ward 5 times this
+        year so far and 2 five day admissions for my mental health and one occasion
+        for a severe panic attack, 4 months apart of eachother, ive had to mental
+        health act assessments in 1 week, been to 4 different hospitals, transferred
+        via ambulance to hospitals an hour away from my friends or family, i did meet
+        some lovely people and engaged in some therapies. I''ve had the police force
+        me to hospital and paramedics called on me twice in a month and 2 more in
+        the space of a week recently, I''ve been to a\u0026e 10 times so far and been
+        with the Crisis Team twice in 4 months apart from eachother for a couple of
+        weeks. Ive had many ''friendships'' which mostly involved me regularly being
+        punched in the face, slapped round the face, punched in the stomach, been
+        strangled, punched twice in the widpipe and throat, people attempting to try
+        and rip my earrings out for fun after i just had them done and had my stuff
+        damaged plus so much more. Ive been forced to hospitals by police, been 136
+        under the polices section, held in custody twice, had everything taken from
+        me and completely stripped of my clothes and shoved in prison clothes like
+        a criminal, i have been very damaged by this and suffer daily flashbacks.
+        I like my own company on good days but everyone needs someone despite having
+        trust issues. I''ve been mentally abused through the majority of my life,
+        been blamed for everything, bullied about my weight, blamed for making my
+        mum sick with a neurological illness and pushed down to the lowest places.
+        So pretty much people bully me and hurt me mentally and physically all the
+        time, you never get used to it or forget it. I have also sadly have the sufferer
+        of Sexual assault and Domestic abuse psychologically by the man i thought
+        i couldn''t live without, he didn''t love me, he loved the pain he cause and
+        controlled every inch of my life, he''s tried blaming my mental health and
+        used horrible things against me forcing me to do things to me and him that
+        i didn''t want to do. I''ve been a sufferer of Psychotic symptoms in the past
+        that i was told was due to extreme stress and thankfully not full blown psychosis.
+        I only get these now if i''m going through a really tough episode, i don''t
+        get the symptoms very often now but when they are there they are frightening.
+        \r\n\r\nTHE GOOD STUFF.... :)\r\n★ I am the ymca''s volunteer of the year
+        2014\r\n\r\n★ I am the ymca''s art director \r\n\r\n♥ I''m a lecturer for
+        my local Samaritans educating them on mental health to get a better service
+        for us all.\r\n\r\n★ ymca''s young people''s champion assistant\r\n\r\n♥ I''m
+        part of the homelessness prevention team teaching year 9, 10s and 11s in schools
+        teaching them about homelessness, the ymca, mental health, budgetting, the
+        foodbank and more, I am 20 and have been homeless from 18, I live in a ymca
+        residential centre and stoll classed as homeless, the kids get to ask any
+        questions they like and get to hear our stories first hand. I have educated
+        well over 950 students since October so far when I first started :) its the
+        best job in the world.\r\n\r\n★ I teach kids of all ages arts and crafts and
+        engage in community activities for charities\r\n\r\n♥ I am currently training
+        to become a youth worker to help people of a wide range of ages with anything
+        they need help with to make them never feel alone\r\n\r\n★ Through my hard
+        work this year for the ymca I have been awarded 4 gift vouchers adding up
+        to £105 in different shops, I feel im making a difference to my life and others
+        lives.\r\n\r\nALL MY WORK IS VOLUNTRY AND NOT PAID, I hope to change peoples
+        lives one step at a time :) I hope this leads to a bigger future ☆★♡♥\r\n\r\n
+        I''d like to think there is hope out there for me also everyone else and some
+        acceptance for us all...sometimes we all need a good cry, to remember it''s
+        Ok not to be Ok.\r\nHead Up, Stay Strong, Give A Smile And Battle On....","email":"taylorhannahlouise@yahoo.co.uk","created_at":"2014-02-23T16:15:41.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMTgvMjAvMzEvMjAvODYxL1NjcmVlbnNob3RfMjAxNV8wMl8xOF8yMF8yOV8yOS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=fd0420068396b198","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2128915,"user_id":14586,"created_at":"2014-07-16T13:06:41.000Z","updated_at":"2014-07-16T13:06:41.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":14586,"nickname":"list
+        frim a fae awat land","first_name":"Anon","last_name":"Anonymous","bio":"","email":"timphoto@outlook.co.uk","created_at":"2014-06-26T22:09:28.000Z","profile_image":null,"twitter_screen_name":null,"deleted":true,"suspended":false}},{"id":2128899,"user_id":12109,"created_at":"2014-07-16T13:04:34.000Z","updated_at":"2014-07-16T13:04:34.000Z","type":"hear","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":12109,"nickname":"Steph
+        Louise","first_name":"Anon","last_name":"Anonymous","bio":"29 yr old BPD sufferer
+        with possible bipolar traits. at end of latest breakdown which involved being
+        on a 136 and then multiple A and E admissions and a failed attempt. no follow
+        up whatsoever was offered. returning to work as support worker soon. I recently
+        quit weekend drinking but fear relapse I receive no support whatsoever with
+        this. had plenty of abysmal (telephone only) contact from dreadful, abusive
+        crisis teams. The last and only time they ever visited was ONCE in August
+        2014. was all set to do a course of MBT group therapy but my recovery has
+        been pushed violently backwards by the abuse and rejection of this team. Now
+        I don''t know if I''m strong enough to go ahead with it at this time and I''m
+        frightened of the way I''ve been treated. I''ve tried meds but they never
+        seem to suit me so I guess I''m a classic example of why they don''t work/
+        aren''t suitable for all BPD''s. I''m hoping to start a university course
+        in mental health nursing in September. My views of the mental health system
+        have been poisoned and it will take me a lot of therapy to get over this when
+        I am even feeling strong enough to go.","email":"steph2082uk@hotmail.com","created_at":"2014-04-01T22:05:37.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDEvMjkvMTUvMjYvNTgvNzMwL2JhbGxlcmluYS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=98132c2e0ca43be6","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2128898,"user_id":12109,"created_at":"2014-07-16T13:04:31.000Z","updated_at":"2014-07-16T13:04:31.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":12109,"nickname":"Steph
+        Louise","first_name":"Anon","last_name":"Anonymous","bio":"29 yr old BPD sufferer
+        with possible bipolar traits. at end of latest breakdown which involved being
+        on a 136 and then multiple A and E admissions and a failed attempt. no follow
+        up whatsoever was offered. returning to work as support worker soon. I recently
+        quit weekend drinking but fear relapse I receive no support whatsoever with
+        this. had plenty of abysmal (telephone only) contact from dreadful, abusive
+        crisis teams. The last and only time they ever visited was ONCE in August
+        2014. was all set to do a course of MBT group therapy but my recovery has
+        been pushed violently backwards by the abuse and rejection of this team. Now
+        I don''t know if I''m strong enough to go ahead with it at this time and I''m
+        frightened of the way I''ve been treated. I''ve tried meds but they never
+        seem to suit me so I guess I''m a classic example of why they don''t work/
+        aren''t suitable for all BPD''s. I''m hoping to start a university course
+        in mental health nursing in September. My views of the mental health system
+        have been poisoned and it will take me a lot of therapy to get over this when
+        I am even feeling strong enough to go.","email":"steph2082uk@hotmail.com","created_at":"2014-04-01T22:05:37.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDEvMjkvMTUvMjYvNTgvNzMwL2JhbGxlcmluYS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=98132c2e0ca43be6","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":259347,"text":"Still
+        the same, every time I talk to/am in the same room with a pretty girl, the
+        ****ing stammer comes back. And what was she doing? Asking to borrow a pan!
+        What the hell is up with me?!","created_at":"2014-06-26T20:50:45.000Z","updated_at":"2014-06-26T21:17:58.000Z","user_id":7853,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":4,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":8,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":true,"removed_by_name":"Cherrelle
+        Gayle","moderated":true,"moderated_by_name":"Eve Critchley","interactions_count":13,"feedback":false,"user":{"id":7853,"nickname":"MyNameIsDan","first_name":"Anon","last_name":"Anonymous","bio":"My
+        name''s Dan, I''m originally from Northamptonshire and currently studying
+        in Nottingham. I''ve suffered from depression since my early teens, only recently
+        managed to get help. I love medieval re-enactment, because I''m just that
+        normal.\r\nHere to help and be helped.","email":"dfthompson1995@gmail.com","created_at":"2013-11-22T04:15:01.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDEvMjcvMjMvMDQvMjMvOTM5LzE1MTA5MzhfNzIwODg2MDgxMjc5NTY1XzExOTYwNjM5NDhfbi5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=98ca1493f0022a8e","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":842406,"user_id":14019,"created_at":"2014-06-26T21:02:37.000Z","updated_at":"2014-06-26T21:02:37.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Yeah
+        i think it proberly is x","post_id":259347,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":14019,"nickname":"kazgothic","first_name":"Anon","last_name":"Anonymous","bio":"","email":"kazgothic70@gmail.com","created_at":"2014-06-04T23:55:27.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDEvMDcvMjEvNTUvNTQvNzEvY3V0ZV9nb3RoYWxpY2lvdXNfZ290aF9naXJsX2hvbGRpbmdfZmxvd2Vyc19wcmludF9fX18uanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=17bb9ddf175e4628","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":842395,"user_id":7853,"created_at":"2014-06-26T20:58:27.000Z","updated_at":"2014-06-26T20:58:27.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"I''m
+        pretty sure it is the anxiety.","post_id":259347,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":7853,"nickname":"MyNameIsDan","first_name":"Anon","last_name":"Anonymous","bio":"My
+        name''s Dan, I''m originally from Northamptonshire and currently studying
+        in Nottingham. I''ve suffered from depression since my early teens, only recently
+        managed to get help. I love medieval re-enactment, because I''m just that
+        normal.\r\nHere to help and be helped.","email":"dfthompson1995@gmail.com","created_at":"2013-11-22T04:15:01.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDEvMjcvMjMvMDQvMjMvOTM5LzE1MTA5MzhfNzIwODg2MDgxMjc5NTY1XzExOTYwNjM5NDhfbi5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=98ca1493f0022a8e","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":842387,"user_id":11732,"created_at":"2014-06-26T20:55:58.000Z","updated_at":"2014-06-26T20:55:58.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"That
+        brings back memories for me Dan. I am sure it will all click into place sooner
+        or later.","post_id":259347,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":11732,"nickname":"Northumbrian","first_name":"David","last_name":"Chambers","bio":"I
+        am 50+ husband and father of two. I was employed full time in a critical public
+        service but was allowed to try something else with the help of early retirement.
+        I used this as an opportunity to do something new and different and I am now
+        self employed in a family business. Unfortunately the stress of my previous
+        work and loss of many important loved ones in quick succession brought me
+        tumbling down to you know where. Thankfully, after much love and care from
+        many good people, I am now virtually back to normal, if not better for the
+        experience. I am no longer under treatment other than a relatively low maintenance
+        level of medication. I still have down days and weeks but overall I am much
+        better and don’t beat myself up anymore, well not as much as before! I think
+        Elefriends are great and wish I had found them earlier. Oh, I nearly forgot
+        to add, I love British Motorcycles and have just taken up painting (pictures
+        not houses).","email":"chambers497@btinternet.com","created_at":"2014-03-20T14:01:17.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDQvMDkvMTkvMTMvNTYvODUvTm9ydGh1bWJlcmxhbmQuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=9fac6a8ab747dd1c","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":842386,"user_id":14019,"created_at":"2014-06-26T20:55:51.000Z","updated_at":"2014-06-26T20:55:51.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"It''s
+        anxiety and nerves i think! I knew a bloke that used to stutter and talk fast
+        when nervous, so i told him to calm down, slow down, breath and he was much
+        better when he did that xxx","post_id":259347,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":14019,"nickname":"kazgothic","first_name":"Anon","last_name":"Anonymous","bio":"","email":"kazgothic70@gmail.com","created_at":"2014-06-04T23:55:27.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDEvMDcvMjEvNTUvNTQvNzEvY3V0ZV9nb3RoYWxpY2lvdXNfZ290aF9naXJsX2hvbGRpbmdfZmxvd2Vyc19wcmludF9fX18uanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=17bb9ddf175e4628","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":258602,"text":"My
+        son Ian has autism. He has reached the final of a competition for his animation
+        about a penny on the road. We have been asked to go to a college that specialises
+        in autism and education near Cardiff on 19th July to find out the results.
+        Please help us make this trip even more memorable for Ian. I am soo proud
+        of him.\r\n\r\nPlease, please, please watch his animation and cast a vote
+        for him. \r\n\r\nLink: http://www.createartforautism.com/peoples-choice-award-2014/entry-1498/\r\n\r\nThank
+        you :D xx ","created_at":"2014-06-25T16:36:47.000Z","updated_at":"2014-06-25T16:36:47.000Z","user_id":3855,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":true,"image_large_url":"/media/W1siZiIsIjIwMTQvMDYvMjUvMTYvMzYvNDcvMTI5L1NjcmVlbl9TaG90XzIwMTRfMDZfMjVfYXRfMTcuMzQuMTkucG5nIl0sWyJwIiwidGh1bWIiLCIzMDB4MjAwIyJdXQ?sha=ab83bebcdbba9f03","image_medium_url":"/media/W1siZiIsIjIwMTQvMDYvMjUvMTYvMzYvNDcvMTI5L1NjcmVlbl9TaG90XzIwMTRfMDZfMjVfYXRfMTcuMzQuMTkucG5nIl0sWyJwIiwidGh1bWIiLCIyMDB4MTQwIyJdXQ?sha=3b1531dc1538465a","sticky":false,"comments_count":12,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":9,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":1,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":true,"moderated_by_name":"Cherrelle
+        Gayle","interactions_count":23,"feedback":false,"user":{"id":3855,"nickname":"lojikAL","first_name":"Anon","last_name":"Anonymous","bio":"⚆.⚆
+        WHO AM I? I am a wife and mum of two sons. I am a carer. My youngest son has
+        autism. I work part-time as a college lecturer. I am also half way through
+        a uni course. It uses a lot of energy, but so far ok.  I love my family very
+        much. I stay in Scotland. I love nature and the solitude of walking in the
+        countryside. I like poetry. ☼ WHY AM I HERE?  I was sexually abused as a child.
+        Two family suicides many years ago continue to have a detrimental effect on
+        me due to burying memories of those experiences. I have lost three members
+        of my immediate family in the last few years. I miss them very much. ☽ HOW
+        HAS THIS AFFECTED ME?  I have self-harmed in the past and still do if a trigger
+        presents itself. I have made one suicide attempt and still experience suicidal
+        thoughts. I hate the feeling of being alone as it is associated with the bad
+        things that happened.  All this has led to anxiety, panic attacks, and depression,
+        which I did not even realise I was going through until someone pointed it
+        out to me. I have only recently been prescribed meds. I manage most of the
+        time, but sometimes I feel lost and scared with what is happening to me and
+        don''t know how to cope. ☆ WHAT AM I DOING TO HELP MYSELF? I have had counseling
+        and CBT. I use TFT and self-hypnosis. I also attend a support group. I like
+        to think positive.  I love sharing cuddles and smiles, and I love my elefriends
+        :) xxx","email":"gbruincollege@yahoo.co.uk","created_at":"2013-05-21T09:53:48.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTEvMTEvMjAvNDgvNDgvMTgvZ2VyYWxkaW5lX2Nsb3NldXAuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=c949904ac5d6ed62","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":849429,"user_id":4752,"created_at":"2014-07-01T08:17:30.000Z","updated_at":"2014-07-01T08:17:30.000Z","type":"comment","likes":{"count":1,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"I''ve
+        voted for Ian :) ❤️ Xxx","post_id":258602,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":4752,"nickname":"JayPee","first_name":"Anon","last_name":"Anonymous","bio":"I
+        put this picture up to remind myself that I used to find joy in the smallest
+        things. Before my breakdown, two and a half years ago, my working life was
+        as frightening as a runaway train... I was the Training Manager for 2,500
+        staff and also a Lecturer in Teacher Training! I was derailed... thrown past
+        the point of no return and buried in the magnitude of 3 big college mergers
+        which birthed a ''super college''. I became broken... It''s hard to describe
+        a complete breakdown and the gradual unravelling of a grown woman. My brain
+        and responses disintegrated over time and I backed away from everything until
+        I fell off the cliff into a deep abyss. I locked myself away completely, apart
+        from emerging to be with close family ....and eventually, Elefriends.  Ultimately,
+        I had to retire early, due to ill health. I''ve always been shy but I''m even
+        more introverted and quiet now.... However, I remain a loving Mum (I have
+        a  daughter and a son :), a devoted Nanna to Emily (age 4 ;) and a trusted
+        friend. Severe anxiety and panic attacks, accompanied by bouts of depression,
+        are now a part of my life and sometimes I am overwhelmed.... BUT I found Elefriends
+        and it''s helped me :) I''ve gained wonderful,  understanding friends and
+        endless support, which I aim to return! \r\nI still try to live up to this
+        belief: \"Live simply, love generously, care deeply, speak kindly, be grateful,
+        laugh lots and leave the rest to God.\" \r\n❤  I LOVE; poppies, they always
+        lift my spirit... ❤ Living by the sea in North Wales, ❤ Tiffany lamps ❤  Tuscany
+        and ❤ Leonid Afrémov paintings; the colours are amazing especially the night
+        scenes...in them the darkness doesn''t overtake the light! ❤","email":"jaypee526@gmail.com","created_at":"2013-06-17T09:40:35.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTIvMDQvMjEvNDAvMjYvNTUxL2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=27262ded64f54358","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":848192,"user_id":3855,"created_at":"2014-06-30T14:10:46.000Z","updated_at":"2014-06-30T14:10:46.000Z","type":"comment","likes":{"count":1,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":1,"user_like_id":null},"text":"You
+        are going too smuggers? Of course we can say hello. That would be great!!!
+        Ian uses MS Paint and MS Moviemaker. He loves animation xx","post_id":258602,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":3855,"nickname":"lojikAL","first_name":"Anon","last_name":"Anonymous","bio":"⚆.⚆
+        WHO AM I? I am a wife and mum of two sons. I am a carer. My youngest son has
+        autism. I work part-time as a college lecturer. I am also half way through
+        a uni course. It uses a lot of energy, but so far ok.  I love my family very
+        much. I stay in Scotland. I love nature and the solitude of walking in the
+        countryside. I like poetry. ☼ WHY AM I HERE?  I was sexually abused as a child.
+        Two family suicides many years ago continue to have a detrimental effect on
+        me due to burying memories of those experiences. I have lost three members
+        of my immediate family in the last few years. I miss them very much. ☽ HOW
+        HAS THIS AFFECTED ME?  I have self-harmed in the past and still do if a trigger
+        presents itself. I have made one suicide attempt and still experience suicidal
+        thoughts. I hate the feeling of being alone as it is associated with the bad
+        things that happened.  All this has led to anxiety, panic attacks, and depression,
+        which I did not even realise I was going through until someone pointed it
+        out to me. I have only recently been prescribed meds. I manage most of the
+        time, but sometimes I feel lost and scared with what is happening to me and
+        don''t know how to cope. ☆ WHAT AM I DOING TO HELP MYSELF? I have had counseling
+        and CBT. I use TFT and self-hypnosis. I also attend a support group. I like
+        to think positive.  I love sharing cuddles and smiles, and I love my elefriends
+        :) xxx","email":"gbruincollege@yahoo.co.uk","created_at":"2013-05-21T09:53:48.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTEvMTEvMjAvNDgvNDgvMTgvZ2VyYWxkaW5lX2Nsb3NldXAuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=c949904ac5d6ed62","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":848063,"user_id":1780,"created_at":"2014-06-30T12:50:19.000Z","updated_at":"2014-06-30T12:50:19.000Z","type":"comment","likes":{"count":1,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"I
+        have cast my vote for Ian.. :-) X","post_id":258602,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":1780,"nickname":"smuggers","first_name":"Anon","last_name":"Anonymous","bio":"","email":"smudgey01@googlemail.com","created_at":"2013-03-11T14:45:09.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDgvMTQvMTQvMjgvMjEvMjA4LzIwMTQwNzIzXzEzMjcyMS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=8908cda632f8bf1f","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":848062,"user_id":1780,"created_at":"2014-06-30T12:49:35.000Z","updated_at":"2014-06-30T12:49:35.000Z","type":"comment","likes":{"count":1,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":1,"user_like_id":null},"text":"Oh
+        my word lojiKAL!!!! Looks like we''re both going to the same event!!! hahaha...I
+        love Ian''s animation..Which computer programme does he use \u0026 is this
+        his kind of thing animation?? X.. Perhaps we could meet to say hello to one
+        another if possible? :-)","post_id":258602,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":1780,"nickname":"smuggers","first_name":"Anon","last_name":"Anonymous","bio":"","email":"smudgey01@googlemail.com","created_at":"2013-03-11T14:45:09.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDgvMTQvMTQvMjgvMjEvMjA4LzIwMTQwNzIzXzEzMjcyMS5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=8908cda632f8bf1f","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":257986,"text":"Im
+        struggling big time, relationship breakdown and job loss at the same time.
+        A lot to deal with and Im getting paranoid about everything and find it hard
+        to function, Im not myself and up and down all the time. I want to talk it
+        over, not swallow pills that the Doctor wants me to take to forget it all.","created_at":"2014-06-24T16:40:56.000Z","updated_at":"2014-06-24T16:40:56.000Z","user_id":14517,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":1,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":4,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":true,"moderated_by_name":"Louise
+        Edelston","interactions_count":6,"feedback":false,"user":{"id":14517,"nickname":"Tracy
+        Hug Lover","first_name":"Anon","last_name":"Anonymous","bio":"","email":"tracyhowells64@hotmail.co.uk","created_at":"2014-06-24T16:36:44.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDYvMjQvMTYvNDQvMDgvOTUzL1dQXzIwMTMwODA2XzAwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=dfcd2bedabce0c36","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":2020281,"user_id":3119,"created_at":"2014-06-24T17:41:02.000Z","updated_at":"2014-06-24T17:41:02.000Z","type":"hear","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":3119,"nickname":"bunnykins
+        ","first_name":"Angela","last_name":"Jefferies","bio":"My anxiety knows NO
+        bounds, it likes to keep me in a permanent state of stress \u0026 panic. :(\r\nI''m
+        55; haven''t managed to hold down a job for about 26 years and feel an utter
+        failure sometimes. Two failed marriages and losing my Dad in 1997 seem to
+        have left me \"incapable\" of being an ordinary person. CBT has helped with
+        the depression \u0026 anxiety but Jobcentre stopping my money for 18 weeks
+        has pushed me back to square one. Hoping 2014 is a better year. I volunteer
+        at a local Charity shop one day a week and try to go on free courses when
+        I can.\r\n","email":"angelajefferies7@hotmail.co.uk","created_at":"2013-04-18T12:07:17.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDEvMTcvMTcvNDMvMzgvMTcwL0h1bXBiYWNrX1doYWxlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=25764aae7cb4bd0d","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2020076,"user_id":12215,"created_at":"2014-06-24T17:04:53.000Z","updated_at":"2014-06-24T17:04:53.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":12215,"nickname":"Notactuallyme","first_name":"Anon","last_name":"Anonymous","bio":"Female,
+        58, depression, severe anxiety, ptsd, lonely.","email":"janetfox56@hotmail.co.uk","created_at":"2014-04-05T12:49:23.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTAvMTkvMDEvMzIvMDMvMTI5L0RTQzAxNDM2LkpQRyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=2b20eb9b5396a93d","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2020033,"user_id":10575,"created_at":"2014-06-24T16:58:24.000Z","updated_at":"2014-06-24T16:58:24.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":10575,"nickname":"rollercoasterbpdride-doncaster","first_name":"Anon","last_name":"Anonymous","bio":"im
+        39 suffered with depression anxiety all my life so far , bouts of agrophobia
+        trust issues and self medicating but brought it under control , now with diagnosis
+        of bpd i can see things clearer now ","email":"limblimo@aol.com","created_at":"2014-02-13T00:54:32.000Z","profile_image":null,"twitter_screen_name":null,"deleted":true,"suspended":false}},{"id":839042,"user_id":14517,"created_at":"2014-06-24T16:50:53.000Z","updated_at":"2014-06-24T16:50:53.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Hi
+        Ali, thanks for the message. Im new on here, have just this moment joined.
+        How long have you been an elefriend?","post_id":257986,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":14517,"nickname":"Tracy
+        Hug Lover","first_name":"Anon","last_name":"Anonymous","bio":"","email":"tracyhowells64@hotmail.co.uk","created_at":"2014-06-24T16:36:44.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDYvMjQvMTYvNDQvMDgvOTUzL1dQXzIwMTMwODA2XzAwMy5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=dfcd2bedabce0c36","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":257984,"text":"Feeling
+        exhausted as Ive recieved bad news. Just feels one bad thing after another
+        and to be honest Im getting fed up of it. I want life to be quiet so that
+        I can repear damaged relationships. Once heard about a man who sold his life
+        on ebay....maybe thats an idea.....\r\n","created_at":"2014-06-24T16:38:11.000Z","updated_at":"2014-06-24T16:38:11.000Z","user_id":4544,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":9,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":true,"moderated_by_name":"Louise
+        Edelston","interactions_count":9,"feedback":false,"user":{"id":4544,"nickname":"MrMu","first_name":"Emil","last_name":"Rowe","bio":"Experience
+        issues with anxiety, anger, depression and loneliness. ","email":"mulieman@live.co.uk","created_at":"2013-06-16T09:41:09.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTAvMjEvMDgvMjIvNDcvMzE1L0tvYWxhLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=e513939472624722","twitter_screen_name":null,"deleted":true,"suspended":false},"recent_interactions":[{"id":2020018,"user_id":9316,"created_at":"2014-06-24T16:53:09.000Z","updated_at":"2014-06-24T16:53:09.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":9316,"nickname":"Bardi","first_name":"Anon","last_name":"Anonymous","bio":"","email":"sw1@btinternet.com","created_at":"2014-01-08T03:52:06.000Z","profile_image":null,"twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2019993,"user_id":13593,"created_at":"2014-06-24T16:47:55.000Z","updated_at":"2014-06-24T16:47:55.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":13593,"nickname":"Ali
+        the whippet mum","first_name":"Anon","last_name":"Anonymous","bio":"I''m Ali,
+        married with 2 children and live in the South West.  I suffer from GAD, OCD
+        and Self Harming.  I''m receiving help for all of this - some days are OK,
+        some days are really hard for me to cope with.  I have very low self esteem
+        and will be starting long term talking therapy to help with this.  I do try
+        to support when I can but equally sometimes I need support.  Fighting, battling,
+        doing everything I can to get out of this horrid state I''ve got myself in
+        and searching for inner peace.","email":"cornishsmiler@yahoo.co.uk","created_at":"2014-05-20T11:18:17.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTAvMTQvMTIvMTAvMTcvOTM1L3doaXBwZXRpbWFnZXMuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=98cf6b79fa4e2286","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2019960,"user_id":10357,"created_at":"2014-06-24T16:44:47.000Z","updated_at":"2014-06-24T16:44:47.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":10357,"nickname":"Bobicus","first_name":"Anon","last_name":"Anonymous","bio":"I''m
+        27, work full time and study a history degree part time.\r\n\r\nI suffer from
+        depression, anxiety, OCD, social awkwardness and all that rubbish plus I have
+        an incredibly low opinion of myself.\r\n\r\nIt took me a long time to do something
+        about my condition. I guess I first started feeling like this when I was 14-15
+        and I only sought out treatment for it less than 12 months ago. This is partly
+        due to the stigma of it all, partly due to being scared of it and actually
+        having it diagnosed therefore declaring I had an illness and also partly out
+        of stubbornness, feeling I could something make myself better.\r\n\r\nFeel
+        free to message me and chat, I will be glad to talk to anyone, whether it''s
+        for advice or a shared interest or just to meet a new friend. It''s nice to
+        see on this site that you can talk freely and people here have an understanding
+        of the things you go through.","email":"rwicks2001@hotmail.com","created_at":"2014-02-07T16:12:47.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTIvMjAvMjEvMzEvMjEvNTQ3L21lX3JvbWVfYmxhY2tfYW5kX3doaXRlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=cbb3c14e3ccaa2bf","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2019949,"user_id":4275,"created_at":"2014-06-24T16:42:57.000Z","updated_at":"2014-06-24T16:42:57.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":4275,"nickname":"F.U.B.A.R.
+        (shaz)","first_name":"Sharon","last_name":"Withers","bio":"I have been a single
+        mum for the past 14+ years, both of my children are registered disabled, my
+        son has aspergers and ADHD, my daughter has Fybro, low level brittle bone
+        and depression. \r\nI also care for my dad \u0026 when I am well work part
+        time as a receptionist/ support worker for the homeless.\r\nI was diagnosed
+        with emotional BPD with SH \u0026 S tendancies in 2007 but only had it confirmed
+        in May 2014  I have also recently been diagnosed with PTSD. In February 2015
+        my diagnosis was changed to Bi-polar 2. It has taken me 7 years of pushing
+        to get the correct diagnosis and then hopefully the correct treatment \u0026
+        support.\r\n I hide how I feel most of the time but sometimes I am unable
+        to do so. Which is when I crash.\r\n\r\nAm here to help \u0026 support anyone
+        who needs it, or Ele hugs to you all. x","email":"shazzybabe76@hotmail.co.uk","created_at":"2013-06-06T07:46:21.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDkvMTgvMTIvNDkvMTEvMTExL0lNR18yMDE0MDcyMF8xOTQzNTguanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=5e14d3154ec5b3f0","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":257274,"text":"Hello
+        eles, I had a wonderful day but I will be more happy if you can help me in
+        helping my friend. He is an adult and he is bullied over believing in horoscop.
+        He asked me if their is a right place for him to talk about being bullied
+        as an adult. I searched the web but couldn''t find a forum or something for
+        adult bullying, this also remind me about the man who had essential tremor.
+        So maybe I can help them both by redirecting them to a site where they can
+        have emotional help. Thank you \u003c3","created_at":"2014-06-23T16:47:01.000Z","updated_at":"2014-06-26T13:55:07.000Z","user_id":14212,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":6,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":1,"user_like_id":null},"hears":{"count":1,"user_like_id":null},"thinkings":{"count":3,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":true,"removed_by_name":"Anon
+        Anonymous","moderated":true,"moderated_by_name":"Cherrelle Gayle","interactions_count":11,"feedback":false,"user":{"id":14212,"nickname":"Timothy","first_name":"Anon","last_name":"Anonymous","bio":null,"email":"khaledothman91@gmail.com","created_at":"2014-06-11T20:50:00.000Z","profile_image":null,"twitter_screen_name":null,"deleted":true,"suspended":false},"recent_interactions":[{"id":837723,"user_id":14212,"created_at":"2014-06-23T19:52:43.000Z","updated_at":"2014-06-23T19:52:43.000Z","type":"comment","likes":{"count":1,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"thank
+        you justpaul, I will tell him.","post_id":257274,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":14212,"nickname":"Timothy","first_name":"Anon","last_name":"Anonymous","bio":null,"email":"khaledothman91@gmail.com","created_at":"2014-06-11T20:50:00.000Z","profile_image":null,"twitter_screen_name":null,"deleted":true,"suspended":false}},{"id":837622,"user_id":14145,"created_at":"2014-06-23T19:00:11.000Z","updated_at":"2014-06-23T19:00:11.000Z","type":"comment","likes":{"count":1,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"K
+        bruva , tell him jus keep out their way ......think karma ;)","post_id":257274,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":14145,"nickname":"justpaul","first_name":"Anon","last_name":"Anonymous","bio":"Took
+        me a while to change this but......... Been sh since aged 10 , heavily and
+        od many times , lucky to be alive , parents used to beat me mentally bully
+        , I am an extreme kind of person if u no wot I mean , either very happy and
+        over confident or brutally depressed n hidin away , been like this for long
+        time 41 now , 3 boys n married , everything I''d perfect for me , except my
+        head , came on here to share xpierences an try to piece stuff togeva so hopefully
+        I van one day live in peace , god bless u all x x x ","email":"paulandal@blueyonder.co.uk","created_at":"2014-06-09T20:18:51.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDYvMTAvMTgvMDAvNDIvNDQvSU1BRzAwNzMuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=cdbe77fba4e9b61a","twitter_screen_name":null,"deleted":true,"suspended":false}},{"id":837556,"user_id":14212,"created_at":"2014-06-23T18:18:17.000Z","updated_at":"2014-06-23T18:18:17.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":1,"user_like_id":null},"text":"thank
+        you faraway... justpaul, no they don''t have authority over him but they are
+        like a \"gang\".. They wait until they see him and ask him \"what the Taurus
+        say today?\" in a saracastic way.","post_id":257274,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":14212,"nickname":"Timothy","first_name":"Anon","last_name":"Anonymous","bio":null,"email":"khaledothman91@gmail.com","created_at":"2014-06-11T20:50:00.000Z","profile_image":null,"twitter_screen_name":null,"deleted":true,"suspended":false}},{"id":2014750,"user_id":7297,"created_at":"2014-06-23T17:22:06.000Z","updated_at":"2014-06-23T17:22:06.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":7297,"nickname":"Beebles  ♥","first_name":"Anon","last_name":"Anonymous","bio":"","email":"colinwilkie169@btinternet.com","created_at":"2013-10-31T01:57:00.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDcvMDgvMTYvMDYvNDIvNjk2LzFfODcyOTA3OTE2bC5KUEciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=047d1d5632f37195","twitter_screen_name":null,"deleted":true,"suspended":false}}]},{"id":257273,"text":"Hmmm
+        soo glad for mini distractions... Loombands are just one :)... I hada word
+        with mum bout my therapy as she asked... And i told her about doing the family
+        therapy again... And shes agreed! Wow... Mind she had a mini moan at me again
+        but im just going to ignore it now... I wear what i want to wear and i dont
+        care how they feel about it... I need my saftey net and that is that!!!\r\nRight
+        i suppose i had better get ready to have fun with the guides... Making choco
+        nests and some owl craft/game.. Soo should be fun, i just have to hope i dont
+        snap as i can still feel an tantrum/meltdown is on its way... Got to hold
+        in!!\r\nHope u all have a good evening xx huggles","created_at":"2014-06-23T16:46:07.000Z","updated_at":"2014-06-23T16:46:07.000Z","user_id":6388,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":0,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":6,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":6,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":true,"moderated_by_name":"Cherrelle
+        Gayle","interactions_count":12,"feedback":false,"user":{"id":6388,"nickname":"lynnemarie","first_name":"Anon","last_name":"Anonymous","bio":"i''m
+        lynnemarie, i''m 25 yrs old, i''m mildly autistic and have a few other mild
+        difficulties - and because of this mildness... my autistic problems werent
+        picked up for years and i''ve warn a mask to hide and pretend. I''ve suffered
+        with depression, anxiety for da past 9 yrs and i also have a very young child
+        (3 -5 yr old) within me - its very difficult for me - where my family doesn''t
+        understand or accept which is very hard. Please forgive mes if my posts dont
+        make sense, it is one of the only ways that little marie can express... So
+        u can tell when im in big or lil mode. Elefriends is da best :)","email":"happy-bunny-18@hotmail.co.uk","created_at":"2013-08-25T10:04:50.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjAvMTMvMTAvNTkvNjcwL2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=01e13141eff43dcf","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":2014623,"user_id":12215,"created_at":"2014-06-23T16:57:11.000Z","updated_at":"2014-06-23T16:57:11.000Z","type":"like","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":12215,"nickname":"Notactuallyme","first_name":"Anon","last_name":"Anonymous","bio":"Female,
+        58, depression, severe anxiety, ptsd, lonely.","email":"janetfox56@hotmail.co.uk","created_at":"2014-04-05T12:49:23.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTAvMTkvMDEvMzIvMDMvMTI5L0RTQzAxNDM2LkpQRyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=2b20eb9b5396a93d","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2014599,"user_id":13408,"created_at":"2014-06-23T16:54:48.000Z","updated_at":"2014-06-23T16:54:48.000Z","type":"like","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":13408,"nickname":"RainbowOfChaos(LittleRachy)","first_name":"Anon","last_name":"Anonymous","bio":"Hey
+        I am Rachael and I am 23. I suffer with OCD which I have had for a good few
+        years and depression. I feel quite alone as next to nobody I know truly understands
+        what it is like for me.","email":"rachit018@hotmail.co.uk","created_at":"2014-05-13T19:22:43.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjQvMjAvMzgvMjcvMzYxL0VsbWVyLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=f0b0863e0ed494d1","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2014579,"user_id":13412,"created_at":"2014-06-23T16:51:34.000Z","updated_at":"2014-06-23T16:51:34.000Z","type":"like","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":13412,"nickname":"Kitty_18","first_name":"Katherine","last_name":"Chesher","bio":"","email":"kkcty@aol.com","created_at":"2014-05-13T20:51:13.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDgvMDkvMTcvNDcvMDMvMTM3L2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=3dab7da3e6a50fc8","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2014578,"user_id":13412,"created_at":"2014-06-23T16:51:34.000Z","updated_at":"2014-06-23T16:51:34.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":13412,"nickname":"Kitty_18","first_name":"Katherine","last_name":"Chesher","bio":"","email":"kkcty@aol.com","created_at":"2014-05-13T20:51:13.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDgvMDkvMTcvNDcvMDMvMTM3L2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=3dab7da3e6a50fc8","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":256633,"text":"My
+        fiance and partner of over 8 years whom I was due to marry next may, has just
+        broken up with me. Devestated and numb","created_at":"2014-06-22T16:47:34.000Z","updated_at":"2014-06-22T16:47:34.000Z","user_id":7183,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":13,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":19,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":true,"moderated_by_name":"Dan
+        Weir","interactions_count":32,"feedback":false,"user":{"id":7183,"nickname":"kelbelle107","first_name":"Kelly","last_name":"Payne","bio":"I
+        am a 25 year old Teacher''s Assistant. I have always been a nervous person
+        but was diagnosed with situational anxiety aged 18 which I got a hold of after
+        CBT. Easter 2012  I developed Generalised Anxiety Disorder and minor depression
+        after my job became ridiculously stressful. After moving job, antidepressants
+        and managing stress classes I thought I had control of it until the end of
+        October 2013 when I had a relapse. I have been put back on my antidepressants
+        and I''m having Cognitive Behavioural Therapy again.","email":"kelbelle107@yahoo.co.uk","created_at":"2013-10-27T20:23:20.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDMvMDkvMTgvMzEvMDQvNzc4LzE4MDAzNjBfMTAxNTIxNTc0NTcyNzk3MzNfMTUwNzUwNTgzMV9uLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=36dd83718de5c962","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":835888,"user_id":12169,"created_at":"2014-06-22T17:38:15.000Z","updated_at":"2014-06-22T17:38:15.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Then
+        he was not the one for you xx","post_id":256633,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":12169,"nickname":"PrincessDoodle24","first_name":"Anon","last_name":"Anonymous","bio":"I''m
+        Becky, 26 and I suffer from anxiety, depression and PTSD due to a domestically
+        abusive relationship in my past that culminated in a broken leg and a truck
+        load of emotional baggage!! Recently started taking Citalopram and nervous
+        of how it will affect me!","email":"becky_royle@hotmail.co.uk","created_at":"2014-04-03T15:28:21.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDQvMDkvMDcvNTQvMjcvNjY0L1dQXzIwMTQwMzI0XzAzMy5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=5fb20ea43a5d574c","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":835854,"user_id":13297,"created_at":"2014-06-22T17:12:48.000Z","updated_at":"2014-06-22T17:12:48.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Sorry
+        to hear this. Has he given you a proper explanation?  xx","post_id":256633,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":13297,"nickname":"Lucy200","first_name":"Anon","last_name":"Anonymous","bio":"I
+        suffer with anxiety, ocd, social phobia and depression. ","email":"ltilson20@aol.com","created_at":"2014-05-10T16:04:17.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDUvMjQvMDgvNTAvMjAvMTY0L3NucDA5Yl8xXzEuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=06da400176445b13","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":835846,"user_id":13632,"created_at":"2014-06-22T17:06:39.000Z","updated_at":"2014-06-22T17:06:39.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Ok
+        love. As long as you have someone there for support :-) xxxx","post_id":256633,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":13632,"nickname":"animallover","first_name":"Anon","last_name":"Anonymous","bio":"Nothing
+        to see here. This is me forever....","email":"bumblebeehannah94@gmail.com","created_at":"2014-05-21T12:49:01.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMTAvMjkvMTAvNDIvMTIvNjcvaW1hZ2VzQTNWMEpQTUcuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=d4ad20931bc6311c","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":835844,"user_id":7183,"created_at":"2014-06-22T17:05:54.000Z","updated_at":"2014-06-22T17:05:54.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"my
+        friends are talking to me on whatsapp","post_id":256633,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":7183,"nickname":"kelbelle107","first_name":"Kelly","last_name":"Payne","bio":"I
+        am a 25 year old Teacher''s Assistant. I have always been a nervous person
+        but was diagnosed with situational anxiety aged 18 which I got a hold of after
+        CBT. Easter 2012  I developed Generalised Anxiety Disorder and minor depression
+        after my job became ridiculously stressful. After moving job, antidepressants
+        and managing stress classes I thought I had control of it until the end of
+        October 2013 when I had a relapse. I have been put back on my antidepressants
+        and I''m having Cognitive Behavioural Therapy again.","email":"kelbelle107@yahoo.co.uk","created_at":"2013-10-27T20:23:20.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDMvMDkvMTgvMzEvMDQvNzc4LzE4MDAzNjBfMTAxNTIxNTc0NTcyNzk3MzNfMTUwNzUwNTgzMV9uLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=36dd83718de5c962","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":256568,"text":"I
+        have just caught sight of my uni results, I have been an epic failure. Should
+        probably sort my mess of a uni education out so that I can at least redo my
+        final year I''m hoping uncapped. I know I should have tackled this problem
+        months ago, its happend and got worse now though and I''ve got to deal with
+        it. What an earth am I going to do, I don''t even know where to start.","created_at":"2014-06-22T13:57:02.000Z","updated_at":"2014-06-22T13:57:02.000Z","user_id":13408,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":2,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":11,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":true,"moderated_by_name":"Dan
+        Weir","interactions_count":13,"feedback":false,"user":{"id":13408,"nickname":"RainbowOfChaos(LittleRachy)","first_name":"Anon","last_name":"Anonymous","bio":"Hey
+        I am Rachael and I am 23. I suffer with OCD which I have had for a good few
+        years and depression. I feel quite alone as next to nobody I know truly understands
+        what it is like for me.","email":"rachit018@hotmail.co.uk","created_at":"2014-05-13T19:22:43.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjQvMjAvMzgvMjcvMzYxL0VsbWVyLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=f0b0863e0ed494d1","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":2008813,"user_id":13898,"created_at":"2014-06-22T14:18:00.000Z","updated_at":"2014-06-22T14:18:00.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":13898,"nickname":"Pawprint","first_name":"Anon","last_name":"Anonymous","bio":"I''m
+        Lizzie, a student veterinary nurse with beautiful two cats and a crazy but
+        loveable dog. I''ve been told I have anxiety, depression, PTSD, and social
+        anxiety. I just feel like a confused mess.","email":"lizzy.ankers@gmail.com","created_at":"2014-05-31T17:13:53.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDkvMDkvMTAvNTMvMTcvMjk2L2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=ad2bb8300fdfe629","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2008792,"user_id":14350,"created_at":"2014-06-22T14:12:38.000Z","updated_at":"2014-06-22T14:12:38.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":14350,"nickname":"Burnout420","first_name":"Joel","last_name":"Marshall","bio":"27
+        year old guy from the North East of England. I suffer from depression and
+        anxiety. I have suicidal thoughts almost daily. Only one person in real life
+        knows what I''m going through and they have their own problems so I don''t
+        like to burden them too much. I''m glad I''ve found a safe environment where
+        I can speak with people who are in my situation. Who knows, maybe I can try
+        to help people too.","email":"marsho_2k@hotmail.com","created_at":"2014-06-17T10:02:12.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDcvMzAvMTIvMjEvMTcvMzc2L21lX2Jhc3MuanBnIl0sWyJwIiwidGh1bWIiLCI4MHg4MCMiXV0?sha=cab968157b25c1e9","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":835661,"user_id":13408,"created_at":"2014-06-22T14:08:11.000Z","updated_at":"2014-06-22T14:08:11.000Z","type":"comment","likes":{"count":1,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":1,"user_like_id":null},"text":"Thank
+        you, hugs at appreciated. That''s true, I think my only hope now is to make
+        an appeal though. Someone I know is going to help me with what to write for
+        it, I could with a trip to the doctors for a possible diagnosis and evidence.
+        I guess your right it could be worse I could do nothing and completely waster
+        my education, I''m going to try not to though. Thank you xx","post_id":256568,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":13408,"nickname":"RainbowOfChaos(LittleRachy)","first_name":"Anon","last_name":"Anonymous","bio":"Hey
+        I am Rachael and I am 23. I suffer with OCD which I have had for a good few
+        years and depression. I feel quite alone as next to nobody I know truly understands
+        what it is like for me.","email":"rachit018@hotmail.co.uk","created_at":"2014-05-13T19:22:43.000Z","profile_image":"/media/W1siZiIsIjIwMTUvMDIvMjQvMjAvMzgvMjcvMzYxL0VsbWVyLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=f0b0863e0ed494d1","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":2008767,"user_id":6259,"created_at":"2014-06-22T14:02:49.000Z","updated_at":"2014-06-22T14:02:49.000Z","type":"thinking","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":6259,"nickname":"SJL","first_name":"Anon","last_name":"Anonymous","bio":"","email":"sjl_robinson@live.co.uk","created_at":"2013-08-18T19:59:42.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDcvMjUvMTQvMTIvMzYvMzA3L2hoaC5qcGciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=aa40ac4e39e8e2f2","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":256550,"text":"Does
+        anyone here know if you can obtain records from a court case? I''m 24 but
+        when I was 13-15 my abuser went to court to be prosecuted and I am curious
+        as to why my mum and adult sister wasn''t prosecuted for doing nothing and
+        allowing the abuse to carry on xxxxxx","created_at":"2014-06-22T13:07:19.000Z","updated_at":"2014-06-22T13:07:19.000Z","user_id":13060,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":5,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":3,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":true,"moderated_by_name":"Dan
+        Weir","interactions_count":8,"feedback":false,"user":{"id":13060,"nickname":"Berny89","first_name":"Anon","last_name":"Anonymous","bio":"","email":"jade.desmond89@gmail.com","created_at":"2014-05-02T19:43:24.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDgvMTkvMTgvMjQvNDcvNTU3L2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=dbec4391a4191d9e","twitter_screen_name":null,"deleted":true,"suspended":false},"recent_interactions":[{"id":837584,"user_id":13060,"created_at":"2014-06-23T18:34:17.000Z","updated_at":"2014-06-23T18:34:17.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":1,"user_like_id":null},"text":"Well
+        they''ve asked me for some details and said they will check to see if it was
+        held at their court ","post_id":256550,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":13060,"nickname":"Berny89","first_name":"Anon","last_name":"Anonymous","bio":"","email":"jade.desmond89@gmail.com","created_at":"2014-05-02T19:43:24.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDgvMTkvMTgvMjQvNDcvNTU3L2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=dbec4391a4191d9e","twitter_screen_name":null,"deleted":true,"suspended":false}},{"id":837025,"user_id":12705,"created_at":"2014-06-23T12:38:39.000Z","updated_at":"2014-06-23T12:38:39.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Good.
+        Hopefully they''ll be able to guide you in the right direction to get the
+        answers you''re looking for xx","post_id":256550,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":12705,"nickname":"Rebecca28","first_name":"Anon","last_name":"Anonymous","bio":"","email":"r.sugden@gmail.com","created_at":"2014-04-22T07:27:37.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDQvMjIvMDcvMzQvMjUvOTgxL2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=184faee15894dd71","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":835706,"user_id":13060,"created_at":"2014-06-22T15:21:21.000Z","updated_at":"2014-06-22T15:21:21.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Just
+        emailed the court that I think the trial was held at, thanks Rebecca xxxx","post_id":256550,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":13060,"nickname":"Berny89","first_name":"Anon","last_name":"Anonymous","bio":"","email":"jade.desmond89@gmail.com","created_at":"2014-05-02T19:43:24.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDgvMTkvMTgvMjQvNDcvNTU3L2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=dbec4391a4191d9e","twitter_screen_name":null,"deleted":true,"suspended":false}},{"id":835704,"user_id":13060,"created_at":"2014-06-22T15:06:49.000Z","updated_at":"2014-06-22T15:06:49.000Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"Great
+        thank you :-) I just think their just as bad as him xxx","post_id":256550,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":13060,"nickname":"Berny89","first_name":"Anon","last_name":"Anonymous","bio":"","email":"jade.desmond89@gmail.com","created_at":"2014-05-02T19:43:24.000Z","profile_image":"/media/W1siZiIsIjIwMTQvMDgvMTkvMTgvMjQvNDcvNTU3L2ltYWdlLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=dbec4391a4191d9e","twitter_screen_name":null,"deleted":true,"suspended":false}}]}],"meta":{"more_posts":false}}'
+    http_version: 
+  recorded_at: Mon, 20 Apr 2015 15:18:40 GMT
+recorded_with: VCR 2.9.3
