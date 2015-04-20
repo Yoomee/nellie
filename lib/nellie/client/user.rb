@@ -8,7 +8,7 @@ module Nellie
 
       module ClassMethods
         def login(username, password)
-          client = OAuth2::Client.new(Nellie.client_id, Nellie.client_secret, :site => Nellie.endpoint)
+          client = OAuth2::Client.new(Nellie.client_id, Nellie.client_secret, :site => Nellie.endpoint, :raise_errors  => false)
           return client.password.get_token(username, password).to_hash
         end
       end
