@@ -6,8 +6,8 @@ module Nellie
         get("comments/#{id}")
       end
 
-      def create_comment(post_id, text, opts = {})
-        response = post("posts/#{post_id}/comments", text: text)
+      def create_comment(post_id, text, moderator_id, opts = {})
+        response = post("posts/#{post_id}/comments", text: text, moderator_id: moderator_id)
         response
       end
 
