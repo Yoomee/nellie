@@ -79,6 +79,11 @@ module Nellie
         response
       end
 
+      def bookmarked_posts(opts = {})
+        response = get("posts/bookmarked_wall", opts)
+        response
+      end
+
     end
   end
 end
