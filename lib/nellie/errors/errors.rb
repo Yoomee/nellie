@@ -10,5 +10,7 @@ module Nellie
     # Raised when Nellie returns the HTTP status code 401
     class Unauthorized < Error; end
 
+    class InvalidFacebookToken < Error; end
+
   end
 end
