@@ -14,7 +14,7 @@ module Nellie
 
         def facebook_login(token)
           client = OAuth2::Client.new(Nellie.client_id, Nellie.client_secret, site: Nellie.endpoint, raise_errors: false)
-          return client.assertion.get_token(hmac_secret: token).to_hash
+          return client.assertion.get_token(iss: 'http://localhost:3000', prn: token, :exp => Time.now.utc.to_i + 3600, hmac_secret: '1234').to_hash
         end
       end
 

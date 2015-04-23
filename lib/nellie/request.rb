@@ -34,7 +34,7 @@ module Nellie
           store[:access_token] = token.token
           store[:refresh_token] = token.refresh_token
         else
-          #The user logged in with facebook, get a new token with the facebook token
+          # The user logged in with facebook, get a new token with the facebook token
           token = refresh_token_with_facebook(client, store[:facebook_token])
           store[:access_token] = token[:access_token]
         end
@@ -43,12 +43,15 @@ module Nellie
 
     def refresh_token_with_refresh_token(client, access_token, refresh_token)
       token = OAuth2::AccessToken.new(client, access_token, refresh_token)
-      client.assertion.get_token(hmac_secret: token).to_hash
       token.refresh!
     end
 
     def refresh_token_with_facebook(client, facebook_token)
-      client.assertion.get_token(hmac_secret: facebook_token).to_hash
+      begin
+        client.assertion.get_token(iss: 'http://localhost:3000', prn: facebook_token, :exp => Time.now.utc.to_i + 3600, hmac_secret: '1234').to_hash
+      rescue OAuth2::Error
+        raise Nellie::Errors::InvalidFacebookToken
+      end
     end
 
     # Perform an HTTP request
