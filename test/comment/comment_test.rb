@@ -10,7 +10,7 @@ class NelliePostTest < Minitest::Test
     VCR.use_cassette('create_comment') do
       client = Nellie::Client.new(access_token: 'access_token', refresh_token: 'refresh_token')
       client.store[:access_token] = client.access_token
-      response = client.create_comment(1, "Some text")
+      response = client.create_comment(1, "Some text", nil)
 
       refute response.comment.nil?
       assert response.comment.class == Hashie::Mash
