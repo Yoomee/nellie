@@ -28,6 +28,11 @@ module Nellie
         response
       end
 
+      def private_activity(id, opts = {})
+        response = get("users/#{id}/private_activity", opts)
+        response
+      end
+
     end
   end
 end

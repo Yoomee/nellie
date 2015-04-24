@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3001/api/v1/users/3/private_activity?access_token=589ac236525f4e378fcbccef1c4576df6d6273c74bc1a34ff357934c8d9f04b8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Elefriends Ruby Gem 0.0.1
+      Authorization:
+      - Token token="589ac236525f4e378fcbccef1c4576df6d6273c74bc1a34ff357934c8d9f04b8"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"9509238154bb9a7c3ddb78aa85f5b119"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 8b48d3d6-8ee3-49a5-b904-18f39686e689
+      X-Runtime:
+      - '1.621971'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"posts":[{"id":443638,"text":"This should show up","created_at":"2015-04-16T15:06:40.309Z","updated_at":"2015-04-16T15:06:40.309Z","user_id":6,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":1,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":1,"feedback":true,"user":{"id":6,"nickname":"edward","first_name":"Edward","last_name":"Andrews","bio":".\r\n\r\n.","email":"edward@yoomee.com","created_at":"2012-11-09T12:24:48.000Z","profile_image":"/media/W1siZiIsIjIwMTMvMDMvMjEvMTFfNDdfMzhfMzgxX2Vkd2FyZC5wbmciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=20ba6dd41ca71bd3","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":1320037,"user_id":3,"created_at":"2015-04-23T13:53:16.558Z","updated_at":"2015-04-23T13:53:16.558Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"shoud
+        lit?","post_id":443638,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":3,"nickname":"matt","first_name":"Matt","last_name":"Atkins","bio":"","email":"matt@yoomee.com","created_at":"2012-11-09T12:24:48.000Z","profile_image":"/media/W1siZiIsIjIwMTMvMDEvMjYvMTVfNDJfMTlfNzQxX21hdHRoZXdfYXRraW5zLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=4c9cd144339e70e1","twitter_screen_name":null,"deleted":false,"suspended":false}}]},{"id":443640,"text":"This
+        is a test","created_at":"2015-04-23T10:07:45.344Z","updated_at":"2015-04-23T10:07:45.344Z","user_id":6,"target_id":null,"target_type":"","video_url":"","video_title":null,"video_description":null,"file_uid":null,"file_name":null,"has_image":false,"image_large_url":null,"image_medium_url":null,"sticky":false,"comments_count":1,"link_url":null,"link_title":null,"link_description":null,"likes":{"count":1,"user_like_id":3557067},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"can_edit":false,"can_delete":false,"moderator_wall":false,"auto_moderated":false,"video_youtube":false,"removed":false,"removed_by_name":"","moderated":false,"moderated_by_name":"","interactions_count":2,"feedback":false,"user":{"id":6,"nickname":"edward","first_name":"Edward","last_name":"Andrews","bio":".\r\n\r\n.","email":"edward@yoomee.com","created_at":"2012-11-09T12:24:48.000Z","profile_image":"/media/W1siZiIsIjIwMTMvMDMvMjEvMTFfNDdfMzhfMzgxX2Vkd2FyZC5wbmciXSxbInAiLCJ0aHVtYiIsIjgweDgwIyJdXQ?sha=20ba6dd41ca71bd3","twitter_screen_name":null,"deleted":false,"suspended":false},"recent_interactions":[{"id":1320036,"user_id":3,"created_at":"2015-04-23T13:53:09.719Z","updated_at":"2015-04-23T13:53:09.719Z","type":"comment","likes":{"count":0,"user_like_id":null},"hears":{"count":0,"user_like_id":null},"thinkings":{"count":0,"user_like_id":null},"text":"this
+        is a test","post_id":443640,"auto_moderated":false,"removed":false,"can_delete":true,"user":{"id":3,"nickname":"matt","first_name":"Matt","last_name":"Atkins","bio":"","email":"matt@yoomee.com","created_at":"2012-11-09T12:24:48.000Z","profile_image":"/media/W1siZiIsIjIwMTMvMDEvMjYvMTVfNDJfMTlfNzQxX21hdHRoZXdfYXRraW5zLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=4c9cd144339e70e1","twitter_screen_name":null,"deleted":false,"suspended":false}},{"id":3557067,"user_id":3,"created_at":"2015-04-23T13:53:04.803Z","updated_at":"2015-04-23T13:53:04.803Z","type":"like","likes":null,"hears":null,"thinkings":null,"text":null,"post_id":null,"auto_moderated":null,"removed":null,"can_delete":true,"user":{"id":3,"nickname":"matt","first_name":"Matt","last_name":"Atkins","bio":"","email":"matt@yoomee.com","created_at":"2012-11-09T12:24:48.000Z","profile_image":"/media/W1siZiIsIjIwMTMvMDEvMjYvMTVfNDJfMTlfNzQxX21hdHRoZXdfYXRraW5zLmpwZyJdLFsicCIsInRodW1iIiwiODB4ODAjIl1d?sha=4c9cd144339e70e1","twitter_screen_name":null,"deleted":false,"suspended":false}}]}],"meta":{"more_posts":false}}'
+    http_version: 
+  recorded_at: Fri, 24 Apr 2015 12:57:12 GMT
+recorded_with: VCR 2.9.3

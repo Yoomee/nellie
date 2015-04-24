@@ -26,4 +26,15 @@ class NellieUserTest < Minitest::Test
     end
   end
 
+  def test_it_gets_private_activity
+    VCR.use_cassette('users_private_activity') do
+      client = Nellie::Client.new(access_token: '589ac236525f4e378fcbccef1c4576df6d6273c74bc1a34ff357934c8d9f04b8', refresh_token: 'refresh_token')
+      client.store[:access_token] = client.access_token
+      response = client.private_activity(3)
+      refute response.nil?
+      refute response.posts.nil?
+      assert response.posts.count == 2
+    end
+  end
+
 end
