@@ -42,7 +42,7 @@ module Nellie
     end
 
     def refresh_token_with_refresh_token(client, access_token, refresh_token)
-      token = OAuth2::AccessToken.new(client, access_token, refresh_token)
+      token = OAuth2::AccessToken.new(client, access_token, refresh_token: refresh_token)
       token.refresh!
     end
 
