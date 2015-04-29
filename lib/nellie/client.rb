@@ -11,5 +11,6 @@ module Nellie
     include Nellie::Client::Users
     include Nellie::Client::Posts
     include Nellie::Client::Comment
+    include Nellie::Client::Following
   end
 end
