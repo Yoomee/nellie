@@ -33,6 +33,16 @@ module Nellie
         response
       end
 
+      def follow_user(id, opts = {})
+        response = post("users/#{id}/follow", opts)
+        response
+      end
+
+      def unfollow_user(id, opts = {})
+        response = post("users/#{id}/unfollow", opts)
+        response
+      end
+
     end
   end
 end
