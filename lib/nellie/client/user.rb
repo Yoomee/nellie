@@ -43,6 +43,11 @@ module Nellie
         response
       end
 
+      def user_pins(opts = {})
+        response = get("users/pins", opts)
+        response
+      end
+
     end
   end
 end
