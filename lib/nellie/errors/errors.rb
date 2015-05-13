@@ -12,5 +12,7 @@ module Nellie
 
     class InvalidFacebookToken < Error; end
 
+    class NotFound < Error; end
+
   end
 end
