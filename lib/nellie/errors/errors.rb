@@ -14,5 +14,7 @@ module Nellie
 
     class NotFound < Error; end
 
+    class NotValid < Error; end
+
   end
 end
