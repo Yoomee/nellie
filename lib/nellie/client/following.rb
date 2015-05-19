@@ -2,8 +2,8 @@ module Nellie
   class Client
     module Following
 
-      def following_posts(id)
-        response = get("following/posts")
+      def following_posts(opts)
+        response = get("following/posts", opts)
         response
       end
 
