@@ -12,5 +12,6 @@ module Nellie
     include Nellie::Client::Posts
     include Nellie::Client::Comment
     include Nellie::Client::Following
+    include Nellie::Client::Themes
   end
 end
