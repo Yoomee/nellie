@@ -7,23 +7,29 @@ module Nellie
       end
 
       def create_comment(post_id, text, moderator_id, opts = {})
-        post("posts/#{post_id}/comments", text: text, moderator_id: moderator_id, opts)
+        opts[:text] = text
+        opts[:moderator_id] = moderator_id
+        post("posts/#{post_id}/comments", opts)
       end
 
       def update_comment(id, text, opts = {})
-        put("comments/#{id}", text: text, opts)
+        opts[:text] = text
+        put("comments/#{id}", opts)
       end
 
       def like_comment(id, type, opts = {})
-        post("comments/#{id}/likes", type: type, opts)
+        opts[:type] = type
+        post("comments/#{id}/likes", opts)
       end
 
       def unlike_comment(id, type, opts = {})
-        delete("comments/#{id}/likes", type: type, opts)
+        opts[:type] = type
+        delete("comments/#{id}/likes", opts)
       end
 
       def comment_likes(id, type, opts = {})
-        get("comments/#{id}/likes", type: type, opts)
+        opts[:type] = type
+        get("comments/#{id}/likes", opts)
       end
 
     end
