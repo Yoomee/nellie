@@ -20,7 +20,6 @@ module Nellie
         connection.use FaradayMiddleware::EncodeJson
         connection.request :oauth2, store[:access_token]
         connection.adapter(adapter)
-        connection.params_encoder = Faraday::FlatParamsEncoder
       end
     end
 

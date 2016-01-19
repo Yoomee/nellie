@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "minitest-reporters"
   spec.add_development_dependency "byebug"
 
-  spec.add_dependency "faraday"
+  spec.add_dependency "faraday", "<= 0.9.1"
   spec.add_dependency "faraday_middleware"
   spec.add_runtime_dependency "hashie"
   spec.add_dependency "json"
