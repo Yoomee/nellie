@@ -56,6 +56,7 @@ module Nellie
 
     # Perform an HTTP request
     def request(method, path, options, signature=false, raw=false, unformatted=false, no_response_wrapper=false)
+      options = options.select { |k, v| !v.nil? }
       begin
         Retriable.retriable on: Nellie::Errors::Unauthorized, on_retry: refresh_access_token  do
           response = connection(raw).send(method) do |request|
