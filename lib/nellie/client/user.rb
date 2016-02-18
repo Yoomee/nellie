@@ -19,33 +19,32 @@ module Nellie
       end
 
       def latest_users(opts = {})
-        response = get("users/latest", opts)
-        response
+        get("users/latest", opts)
       end
 
       def user_wall(id, opts = {})
-        response = get("users/#{id}/wall", opts)
-        response
+        get("users/#{id}/wall", opts)
       end
 
       def private_activity(id, opts = {})
-        response = get("users/#{id}/private_activity", opts)
-        response
+        get("users/#{id}/private_activity", opts)
       end
 
       def follow_user(id, opts = {})
-        response = post("users/#{id}/follow", opts)
-        response
+        post("users/#{id}/follow", opts)
       end
 
       def unfollow_user(id, opts = {})
-        response = post("users/#{id}/unfollow", opts)
-        response
+        post("users/#{id}/unfollow", opts)
       end
 
       def user_pins(opts = {})
-        response = get("users/pins", opts)
-        response
+        get("users/pins", opts)
+      end
+
+      def search(text, opts = {})
+        opts['text'] = text
+        get("users/search", opts)
       end
 
     end
