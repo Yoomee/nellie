@@ -23,6 +23,8 @@ module Nellie
     # Raised when Nellie returns the HTTP status code 401
     class Unauthorized < ApiError; end
 
+    class AccessDenied < ApiError; end
+
     class InvalidFacebookToken < ApiError; end
 
     class NotFound < ApiError; end
