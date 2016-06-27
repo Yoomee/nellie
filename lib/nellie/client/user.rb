@@ -8,12 +8,24 @@ module Nellie
 
       module ClassMethods
         def login(username, password)
-          client = OAuth2::Client.new(Nellie.client_id, Nellie.client_secret, :site => Nellie.endpoint, :raise_errors  => false)
+          client = OAuth2::Client.new(
+            Nellie.client_id,
+            Nellie.client_secret,
+            :site => Nellie.endpoint,
+            :raise_errors  => false,
+            :connection_opts => { :headers => { :user_agent => 'Nellie' } }
+          )
           return client.password.get_token(username, password).to_hash
         end
 
         def facebook_login(token)
-          client = OAuth2::Client.new(Nellie.client_id, Nellie.client_secret, site: Nellie.endpoint, raise_errors: false)
+          client = OAuth2::Client.new(
+            Nellie.client_id,
+            Nellie.client_secret,
+            site: Nellie.endpoint,
+            raise_errors: false,
+            :connection_opts => { :headers => { :user_agent => 'Nellie' } }
+          )
           return client.assertion.get_token(iss: 'http://localhost:3000', prn: token, :exp => Time.now.utc.to_i + 3600, hmac_secret: '1234').to_hash
         end
       end
